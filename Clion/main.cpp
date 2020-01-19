@@ -1,11 +1,3 @@
-//
-//  main.cpp
-//  C_project
-//
-//  Created by 倪浩鹏 on 2020/1/16.
-//  Copyright © 2020 nihaopeng. All rights reserved.
-//
-
 #include <iostream>
 using namespace std;
 
@@ -19,4 +11,3 @@ int main() {
     cout << "a = " << a << endl;
     return 0;
 }
-

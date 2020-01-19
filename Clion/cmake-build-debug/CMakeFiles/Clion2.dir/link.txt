@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/9.1.0/bin/g++-9  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Clion2.dir/define_namespace.cpp.o  -o Clion2 
