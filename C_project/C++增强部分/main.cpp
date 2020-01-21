@@ -10,7 +10,7 @@
 using namespace std;
 // C++语言对全局变量的检测增强了
 
-void test(){
+void test1(){
     bool flag;          // 新增的bool类型
     flag = true;        // true为1，false为0
     if (flag){
@@ -33,9 +33,25 @@ void test2(){
     cout << "b = " << b << endl;
 }
 
+void test3(){
+    const int a = 10;
+    // int arrat_test[a];
+    
+    int *p = (int*)&a;      // 如果对一个常量取地址，编译器会临时开辟一个空间temp，让这个指针存放这个临时空间的地址
+    *p = 20;                // 改变的是temp变量
+    
+    cout << "a = " << a << endl;
+    cout << "*p = " << *p << endl;
+}
+
 int main(int argc, const char * argv[]) {
-    cout << "Hello, World!" << endl;
-    test();
+    test1();
     test2();
+    test3();
+    
+    // const增强部分，const定义常量-->代表只读，不可修改
+    // 和#define宏定义不同，宏定义是在预处理阶段，const是在编译阶段
+    //const int *z1;                  // 指针可以修改，但是指针指向的区域内部不可修改
+    //int *const z2 = nullptr;        // 指针不可修改，但是指针指向的区域内部可以修改
     return 0;
 }
