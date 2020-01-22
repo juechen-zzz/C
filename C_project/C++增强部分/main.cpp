@@ -56,7 +56,7 @@ enum season{
 
 void test4(){
     enum season s = winter;
-    cout << "s = " << s << endl;
+    cout << "s的索引为：" << s << endl;
 }
 
 struct student{
