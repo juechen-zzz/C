@@ -2,12 +2,14 @@
 //  main.cpp
 //  C++增强部分
 //
-//  Created by 倪浩鹏 on 2020/1/20.
+//  Created by 倪浩鹏 on 2020/1/22.
 //  Copyright © 2020 nihaopeng. All rights reserved.
 //
 
 #include <iostream>
+#include "test.hpp"
 using namespace std;
+
 // C++语言对全局变量的检测增强了
 
 void test1(){
@@ -44,10 +46,37 @@ void test3(){
     cout << "*p = " << *p << endl;
 }
 
+// 枚举,返回所要找的值对应的索引
+enum season{
+    spring = 0,
+    summer,
+    autumn,
+    winter
+};
+
+void test4(){
+    enum season s = winter;
+    cout << "s = " << s << endl;
+}
+
+struct student{
+    int id;
+    char name[64];
+};
+void printf1(struct student &s){
+    cout << s.id << " " << s.name << endl;
+}
+
+
 int main(int argc, const char * argv[]) {
     test1();
     test2();
     test3();
+    test4();
+    test5();
+    
+    student s1 = {1, "A"};
+    printf1(s1);
     
     // const增强部分，const定义常量-->代表只读，不可修改
     // 和#define宏定义不同，宏定义是在预处理阶段，const是在编译阶段
