@@ -21,6 +21,7 @@ void test1(){
     cout << "size: " << sizeof(flag) << endl;       // 大小为1个字节
 }
 
+
 void test2(){
     int a = 10;
     int b = 20;
@@ -35,6 +36,7 @@ void test2(){
     cout << "b = " << b << endl;
 }
 
+
 void test3(){
     const int a = 10;
     // int arrat_test[a];
@@ -45,6 +47,7 @@ void test3(){
     cout << "a = " << a << endl;
     cout << "*p = " << *p << endl;
 }
+
 
 // 枚举,返回所要找的值对应的索引
 enum season{
@@ -59,6 +62,8 @@ void test4(){
     cout << "s的索引为：" << s << endl;
 }
 
+
+// 引用所占用的大小和指针相同，同时必须初始化，所以引用是一常指针
 struct student{
     int id;
     char name[64];
