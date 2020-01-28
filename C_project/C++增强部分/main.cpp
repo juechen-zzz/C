@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "test.hpp"
+#include "test.hpp"         // 包含函数文件得头函数
 using namespace std;
 
 // C++语言对全局变量的检测增强了
 
-void test1(){
-    bool flag;          // 新增的bool类型
+void test1(){           // 新增bool类型
+    bool flag;
     flag = true;        // true为1，false为0
     if (flag){
         cout << "Yes!" << endl;
@@ -22,7 +22,7 @@ void test1(){
 }
 
 
-void test2(){
+void test2(){                   // 新增三目运算符可以作为左值进行赋值
     int a = 10;
     int b = 20;
     int c = 0;
@@ -37,7 +37,7 @@ void test2(){
 }
 
 
-void test3(){
+void test3(){               // const常量
     const int a = 10;
     // int arrat_test[a];
     
@@ -57,7 +57,7 @@ enum season{
     winter
 };
 
-void test4(){
+void test4(){               // 枚举的测试函数
     enum season s = winter;
     cout << "s的索引为：" << s << endl;
 }
