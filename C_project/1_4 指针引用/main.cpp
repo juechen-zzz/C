@@ -16,7 +16,7 @@ struct teacher{
 
 int get_mem(struct teacher **tpp){
     struct teacher *tp = nullptr;
-    // malloc指向f被分配内存空间的指针
+    // malloc指向被分配内存空间的指针
     tp = (struct teacher *)malloc(sizeof(struct teacher));
     if (tp == nullptr) {
         return -1;
