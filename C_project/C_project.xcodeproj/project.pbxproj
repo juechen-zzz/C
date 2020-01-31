@@ -16,6 +16,12 @@
 		81E53C3D23E30F7D0041B170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C3C23E30F7D0041B170 /* main.cpp */; };
 		81E53C4823E31A090041B170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C4723E31A090041B170 /* main.cpp */; };
 		81E53C5323E321FA0041B170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C5223E321FA0041B170 /* main.cpp */; };
+		81E53C5E23E466950041B170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C5D23E466950041B170 /* main.cpp */; };
+		81E53C6923E469DC0041B170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C6823E469DC0041B170 /* main.cpp */; };
+		81E53C7423E46D9D0041B170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C7323E46D9D0041B170 /* main.cpp */; };
+		81E53C7A23E46DFB0041B170 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C7823E46DFB0041B170 /* Circle.cpp */; };
+		81E53C8223E472F90041B170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C8123E472F90041B170 /* main.cpp */; };
+		81E53C8823E4737F0041B170 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81E53C8623E4737F0041B170 /* Cube.cpp */; };
 		81FF86D323D3ED6000613B77 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81FF86D223D3ED6000613B77 /* main.cpp */; };
 		81FF86EB23D7EBA800613B77 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81FF86EA23D7EBA800613B77 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -93,6 +99,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		81E53C5923E466950041B170 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		81E53C6423E469DC0041B170 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		81E53C6F23E46D9D0041B170 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		81E53C7D23E472F90041B170 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		81FF86CE23D3ED6000613B77 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,6 +174,18 @@
 		81E53C4723E31A090041B170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81E53C5023E321FA0041B170 /* 2_6 类的封装 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_6 类的封装"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E53C5223E321FA0041B170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81E53C5B23E466950041B170 /* 2_7 面向过程和面向对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_7 面向过程和面向对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E53C5D23E466950041B170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81E53C6623E469DC0041B170 /* 2_8 面向对象：求圆的周长和面积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_8 面向对象：求圆的周长和面积"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E53C6823E469DC0041B170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81E53C7123E46D9D0041B170 /* 2_9 面向对象：求圆的周长和面积（多文件） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_9 面向对象：求圆的周长和面积（多文件）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E53C7323E46D9D0041B170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81E53C7823E46DFB0041B170 /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		81E53C7923E46DFB0041B170 /* Circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		81E53C7F23E472F90041B170 /* 2_10 面向对象：立方体类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_10 面向对象：立方体类"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E53C8123E472F90041B170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81E53C8623E4737F0041B170 /* Cube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		81E53C8723E4737F0041B170 /* Cube.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cube.hpp; sourceTree = "<group>"; };
 		81FF86D023D3ED6000613B77 /* define_namespace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = define_namespace; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FF86D223D3ED6000613B77 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81FF86E823D7EBA800613B77 /* C++增强部分 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++增强部分"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +249,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E53C5823E466950041B170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E53C6323E469DC0041B170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E53C6E23E46D9D0041B170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E53C7C23E472F90041B170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81FF86CD23D3ED6000613B77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,27 +294,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		818CCEF723D9835F003EBF6B /* 1_4 指针引用 */ = {
+		818CCEF723D9835F003EBF6B /* 1_4  指针引用 */ = {
 			isa = PBXGroup;
 			children = (
 				818CCEF823D9835F003EBF6B /* main.cpp */,
 			);
-			path = "1_4 指针引用";
+			path = "1_4  指针引用";
 			sourceTree = "<group>";
 		};
 		81B11D6D23D09ADE00B8B244 = {
 			isa = PBXGroup;
 			children = (
-				81B11D7823D09ADE00B8B244 /* 1_1 C_project */,
-				81FF86D123D3ED6000613B77 /* 1_2 define_namespace */,
-				81FF86E923D7EBA800613B77 /* 1_3 C++增强部分 */,
-				818CCEF723D9835F003EBF6B /* 1_4 指针引用 */,
-				81E53C1A23E2ECF30041B170 /* 2_1 内联函数 */,
-				81E53C2523E2F19E0041B170 /* 2_2 默认参数和占位参数 */,
-				81E53C3023E2F5930041B170 /* 2_3 函数重载 */,
-				81E53C3B23E30F7D0041B170 /* 2_4 函数重载与函数指针 */,
-				81E53C4623E31A090041B170 /* 2_5 类和对象 */,
-				81E53C5123E321FA0041B170 /* 2_6 类的封装 */,
+				81B11D7823D09ADE00B8B244 /* 1_1  C_project */,
+				81FF86D123D3ED6000613B77 /* 1_2  define_namespace */,
+				81FF86E923D7EBA800613B77 /* 1_3  C++增强部分 */,
+				818CCEF723D9835F003EBF6B /* 1_4  指针引用 */,
+				81E53C1A23E2ECF30041B170 /* 2_1  内联函数 */,
+				81E53C2523E2F19E0041B170 /* 2_2  默认参数和占位参数 */,
+				81E53C3023E2F5930041B170 /* 2_3  函数重载 */,
+				81E53C3B23E30F7D0041B170 /* 2_4  函数重载与函数指针 */,
+				81E53C4623E31A090041B170 /* 2_5  类和对象 */,
+				81E53C5123E321FA0041B170 /* 2_6  类的封装 */,
+				81E53C5C23E466950041B170 /* 2_7  面向过程和面向对象 */,
+				81E53C6723E469DC0041B170 /* 2_8  面向对象：求圆的周长和面积 */,
+				81E53C7223E46D9D0041B170 /* 2_9  面向对象：求圆的周长和面积（多文件） */,
+				81E53C8023E472F90041B170 /* 2_10 面向对象：立方体类 */,
 				81B11D7723D09ADE00B8B244 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -250,82 +336,122 @@
 				81E53C3A23E30F7D0041B170 /* 2_4 函数重载与函数指针 */,
 				81E53C4523E31A090041B170 /* 2_5 类和对象 */,
 				81E53C5023E321FA0041B170 /* 2_6 类的封装 */,
+				81E53C5B23E466950041B170 /* 2_7 面向过程和面向对象 */,
+				81E53C6623E469DC0041B170 /* 2_8 面向对象：求圆的周长和面积 */,
+				81E53C7123E46D9D0041B170 /* 2_9 面向对象：求圆的周长和面积（多文件） */,
+				81E53C7F23E472F90041B170 /* 2_10 面向对象：立方体类 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81B11D7823D09ADE00B8B244 /* 1_1 C_project */ = {
+		81B11D7823D09ADE00B8B244 /* 1_1  C_project */ = {
 			isa = PBXGroup;
 			children = (
 				81B11D7923D09ADE00B8B244 /* main.cpp */,
 			);
-			path = "1_1 C_project";
+			path = "1_1  C_project";
 			sourceTree = "<group>";
 		};
-		81E53C1A23E2ECF30041B170 /* 2_1 内联函数 */ = {
+		81E53C1A23E2ECF30041B170 /* 2_1  内联函数 */ = {
 			isa = PBXGroup;
 			children = (
 				81E53C1B23E2ECF30041B170 /* main.cpp */,
 			);
-			path = "2_1 内联函数";
+			path = "2_1  内联函数";
 			sourceTree = "<group>";
 		};
-		81E53C2523E2F19E0041B170 /* 2_2 默认参数和占位参数 */ = {
+		81E53C2523E2F19E0041B170 /* 2_2  默认参数和占位参数 */ = {
 			isa = PBXGroup;
 			children = (
 				81E53C2623E2F19E0041B170 /* main.cpp */,
 			);
-			path = "2_2 默认参数和占位参数";
+			path = "2_2  默认参数和占位参数";
 			sourceTree = "<group>";
 		};
-		81E53C3023E2F5930041B170 /* 2_3 函数重载 */ = {
+		81E53C3023E2F5930041B170 /* 2_3  函数重载 */ = {
 			isa = PBXGroup;
 			children = (
 				81E53C3123E2F5930041B170 /* main.cpp */,
 			);
-			path = "2_3 函数重载";
+			path = "2_3  函数重载";
 			sourceTree = "<group>";
 		};
-		81E53C3B23E30F7D0041B170 /* 2_4 函数重载与函数指针 */ = {
+		81E53C3B23E30F7D0041B170 /* 2_4  函数重载与函数指针 */ = {
 			isa = PBXGroup;
 			children = (
 				81E53C3C23E30F7D0041B170 /* main.cpp */,
 			);
-			path = "2_4 函数重载与函数指针";
+			path = "2_4  函数重载与函数指针";
 			sourceTree = "<group>";
 		};
-		81E53C4623E31A090041B170 /* 2_5 类和对象 */ = {
+		81E53C4623E31A090041B170 /* 2_5  类和对象 */ = {
 			isa = PBXGroup;
 			children = (
 				81E53C4723E31A090041B170 /* main.cpp */,
 			);
-			path = "2_5 类和对象";
+			path = "2_5  类和对象";
 			sourceTree = "<group>";
 		};
-		81E53C5123E321FA0041B170 /* 2_6 类的封装 */ = {
+		81E53C5123E321FA0041B170 /* 2_6  类的封装 */ = {
 			isa = PBXGroup;
 			children = (
 				81E53C5223E321FA0041B170 /* main.cpp */,
 			);
-			path = "2_6 类的封装";
+			path = "2_6  类的封装";
 			sourceTree = "<group>";
 		};
-		81FF86D123D3ED6000613B77 /* 1_2 define_namespace */ = {
+		81E53C5C23E466950041B170 /* 2_7  面向过程和面向对象 */ = {
+			isa = PBXGroup;
+			children = (
+				81E53C5D23E466950041B170 /* main.cpp */,
+			);
+			path = "2_7  面向过程和面向对象";
+			sourceTree = "<group>";
+		};
+		81E53C6723E469DC0041B170 /* 2_8  面向对象：求圆的周长和面积 */ = {
+			isa = PBXGroup;
+			children = (
+				81E53C6823E469DC0041B170 /* main.cpp */,
+			);
+			path = "2_8  面向对象：求圆的周长和面积";
+			sourceTree = "<group>";
+		};
+		81E53C7223E46D9D0041B170 /* 2_9  面向对象：求圆的周长和面积（多文件） */ = {
+			isa = PBXGroup;
+			children = (
+				81E53C7323E46D9D0041B170 /* main.cpp */,
+				81E53C7823E46DFB0041B170 /* Circle.cpp */,
+				81E53C7923E46DFB0041B170 /* Circle.hpp */,
+			);
+			path = "2_9  面向对象：求圆的周长和面积（多文件）";
+			sourceTree = "<group>";
+		};
+		81E53C8023E472F90041B170 /* 2_10 面向对象：立方体类 */ = {
+			isa = PBXGroup;
+			children = (
+				81E53C8123E472F90041B170 /* main.cpp */,
+				81E53C8623E4737F0041B170 /* Cube.cpp */,
+				81E53C8723E4737F0041B170 /* Cube.hpp */,
+			);
+			path = "2_10 面向对象：立方体类";
+			sourceTree = "<group>";
+		};
+		81FF86D123D3ED6000613B77 /* 1_2  define_namespace */ = {
 			isa = PBXGroup;
 			children = (
 				81FF86D223D3ED6000613B77 /* main.cpp */,
 			);
-			path = "1_2 define_namespace";
+			path = "1_2  define_namespace";
 			sourceTree = "<group>";
 		};
-		81FF86E923D7EBA800613B77 /* 1_3 C++增强部分 */ = {
+		81FF86E923D7EBA800613B77 /* 1_3  C++增强部分 */ = {
 			isa = PBXGroup;
 			children = (
 				81FF86EA23D7EBA800613B77 /* main.cpp */,
 				818CCEEF23D7ED7F003EBF6B /* test.cpp */,
 				818CCEF023D7ED7F003EBF6B /* test.hpp */,
 			);
-			path = "1_3 C++增强部分";
+			path = "1_3  C++增强部分";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,6 +593,74 @@
 			productReference = 81E53C5023E321FA0041B170 /* 2_6 类的封装 */;
 			productType = "com.apple.product-type.tool";
 		};
+		81E53C5A23E466950041B170 /* 2_7 面向过程和面向对象 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E53C6123E466950041B170 /* Build configuration list for PBXNativeTarget "2_7 面向过程和面向对象" */;
+			buildPhases = (
+				81E53C5723E466950041B170 /* Sources */,
+				81E53C5823E466950041B170 /* Frameworks */,
+				81E53C5923E466950041B170 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_7 面向过程和面向对象";
+			productName = "2_7 面向过程和面向对象";
+			productReference = 81E53C5B23E466950041B170 /* 2_7 面向过程和面向对象 */;
+			productType = "com.apple.product-type.tool";
+		};
+		81E53C6523E469DC0041B170 /* 2_8 面向对象：求圆的周长和面积 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E53C6A23E469DC0041B170 /* Build configuration list for PBXNativeTarget "2_8 面向对象：求圆的周长和面积" */;
+			buildPhases = (
+				81E53C6223E469DC0041B170 /* Sources */,
+				81E53C6323E469DC0041B170 /* Frameworks */,
+				81E53C6423E469DC0041B170 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_8 面向对象：求圆的周长和面积";
+			productName = "2_8 面向对象：求圆的周长和面积";
+			productReference = 81E53C6623E469DC0041B170 /* 2_8 面向对象：求圆的周长和面积 */;
+			productType = "com.apple.product-type.tool";
+		};
+		81E53C7023E46D9D0041B170 /* 2_9 面向对象：求圆的周长和面积（多文件） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E53C7523E46D9D0041B170 /* Build configuration list for PBXNativeTarget "2_9 面向对象：求圆的周长和面积（多文件）" */;
+			buildPhases = (
+				81E53C6D23E46D9D0041B170 /* Sources */,
+				81E53C6E23E46D9D0041B170 /* Frameworks */,
+				81E53C6F23E46D9D0041B170 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_9 面向对象：求圆的周长和面积（多文件）";
+			productName = "2_9 面向对象：求圆的周长和面积（多文件）";
+			productReference = 81E53C7123E46D9D0041B170 /* 2_9 面向对象：求圆的周长和面积（多文件） */;
+			productType = "com.apple.product-type.tool";
+		};
+		81E53C7E23E472F90041B170 /* 2_10 面向对象：立方体类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E53C8323E472F90041B170 /* Build configuration list for PBXNativeTarget "2_10 面向对象：立方体类" */;
+			buildPhases = (
+				81E53C7B23E472F90041B170 /* Sources */,
+				81E53C7C23E472F90041B170 /* Frameworks */,
+				81E53C7D23E472F90041B170 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_10 面向对象：立方体类";
+			productName = "2_10 面向对象：立方体类";
+			productReference = 81E53C7F23E472F90041B170 /* 2_10 面向对象：立方体类 */;
+			productType = "com.apple.product-type.tool";
+		};
 		81FF86CF23D3ED6000613B77 /* define_namespace */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81FF86D623D3ED6000613B77 /* Build configuration list for PBXNativeTarget "define_namespace" */;
@@ -534,6 +728,18 @@
 					81E53C4F23E321FA0041B170 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					81E53C5A23E466950041B170 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					81E53C6523E469DC0041B170 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					81E53C7023E46D9D0041B170 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					81E53C7E23E472F90041B170 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					81FF86CF23D3ED6000613B77 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -565,6 +771,10 @@
 				81E53C3923E30F7D0041B170 /* 2_4 函数重载与函数指针 */,
 				81E53C4423E31A090041B170 /* 2_5 类和对象 */,
 				81E53C4F23E321FA0041B170 /* 2_6 类的封装 */,
+				81E53C5A23E466950041B170 /* 2_7 面向过程和面向对象 */,
+				81E53C6523E469DC0041B170 /* 2_8 面向对象：求圆的周长和面积 */,
+				81E53C7023E46D9D0041B170 /* 2_9 面向对象：求圆的周长和面积（多文件） */,
+				81E53C7E23E472F90041B170 /* 2_10 面向对象：立方体类 */,
 			);
 		};
 /* End PBXProject section */
@@ -631,6 +841,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E53C5323E321FA0041B170 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E53C5723E466950041B170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E53C5E23E466950041B170 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E53C6223E469DC0041B170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E53C6923E469DC0041B170 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E53C6D23E46D9D0041B170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E53C7423E46D9D0041B170 /* main.cpp in Sources */,
+				81E53C7A23E46DFB0041B170 /* Circle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E53C7B23E472F90041B170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E53C8823E4737F0041B170 /* Cube.cpp in Sources */,
+				81E53C8223E472F90041B170 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,6 +1135,70 @@
 			};
 			name = Release;
 		};
+		81E53C5F23E466950041B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81E53C6023E466950041B170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81E53C6B23E469DC0041B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81E53C6C23E469DC0041B170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81E53C7623E46D9D0041B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81E53C7723E46D9D0041B170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81E53C8423E472F90041B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81E53C8523E472F90041B170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		81FF86D423D3ED6000613B77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1003,6 +1311,42 @@
 			buildConfigurations = (
 				81E53C5523E321FA0041B170 /* Debug */,
 				81E53C5623E321FA0041B170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E53C6123E466950041B170 /* Build configuration list for PBXNativeTarget "2_7 面向过程和面向对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E53C5F23E466950041B170 /* Debug */,
+				81E53C6023E466950041B170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E53C6A23E469DC0041B170 /* Build configuration list for PBXNativeTarget "2_8 面向对象：求圆的周长和面积" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E53C6B23E469DC0041B170 /* Debug */,
+				81E53C6C23E469DC0041B170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E53C7523E46D9D0041B170 /* Build configuration list for PBXNativeTarget "2_9 面向对象：求圆的周长和面积（多文件）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E53C7623E46D9D0041B170 /* Debug */,
+				81E53C7723E46D9D0041B170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E53C8323E472F90041B170 /* Build configuration list for PBXNativeTarget "2_10 面向对象：立方体类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E53C8423E472F90041B170 /* Debug */,
+				81E53C8523E472F90041B170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,7 +11,7 @@ using namespace std;
 
 // 用法类似于结构体
 // 区别：类class有访问控制权限，封装的特性，而结构体没有
-// class默认访问权限为private，结构体默认为public
+// class默认访问权限为private，结构体则默认为public
 struct Hero {
     char name[64];
     int id;
