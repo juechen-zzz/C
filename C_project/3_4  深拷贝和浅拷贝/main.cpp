@@ -29,7 +29,7 @@ public:
         
         // 深拷贝操作
         double len = strlen(another.m_name);
-        m_name = (char *)malloc(len + 1);       // 在栈上开辟空间，存在\0m，所以长度+1
+        m_name = (char *)malloc(len + 1);       // 在栈上开辟空间，存在\0，所以长度+1
         strcpy(m_name, another.m_name);
     }
     
