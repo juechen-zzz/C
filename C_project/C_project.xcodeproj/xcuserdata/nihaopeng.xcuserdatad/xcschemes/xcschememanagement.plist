@@ -84,6 +84,21 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>3_7  静态成员变量和静态成员函数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>3_8  静态成员变量练习.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>3_9  静态成员变量练习.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>C++增强部分.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
