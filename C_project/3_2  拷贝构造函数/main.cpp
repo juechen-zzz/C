@@ -11,7 +11,7 @@ using namespace std;
 
 // 当没有任何的显式构造函数（显式无参，有参，**显式拷贝构造**）时，默认的构造函数会出现
 // 当没有显式的拷贝构造函数，默认的拷贝构造函数会出现
-// 当没有显式的析构函数，默认的析构a函数会出现ß
+// 当没有显式的析构函数，默认的析构函数会出现
 
 class Test{
 public:
@@ -25,10 +25,10 @@ public:
         m_y = 0;
     }
     
-//    Test(const Test &another){
-//        m_x = another.m_x;
-//        m_y = another.m_y;
-//    }
+    Test(const Test &another){
+        m_x = another.m_x;
+        m_y = another.m_y;
+    }
     
     void printT(){
         cout << "x = " << m_x << "  y = " << m_y << endl;
