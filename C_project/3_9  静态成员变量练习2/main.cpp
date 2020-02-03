@@ -18,7 +18,7 @@ public:
         m_all_score += score;
     }
     void printT(){
-        cout << "总数为" << m_number << endl;
+        cout << "总数为：" << m_number << endl;
         cout << "平均分为：" << (m_all_score / m_number) << endl;
     }
     ~Student(){
