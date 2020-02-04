@@ -29,7 +29,7 @@ void sale(Goods *&head){
         return;
     }
     else{
-        Goods * tmp = head;
+        Goods *tmp = head;
         head = head->next;
         delete tmp;
     }
@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
             case 2:             //出货
                 sale(head);
                 break;
-            case 0:             //退出ß
+            case 0:             //退出
                 return 0;
             default:
                 break;

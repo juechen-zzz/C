@@ -17,9 +17,11 @@ using namespace std;
 
 class Goods{
 public:
+    // 构造函数
     Goods();
     Goods(int weight);
     
+    // 定义指针
     Goods *next;
     
     ~Goods();
