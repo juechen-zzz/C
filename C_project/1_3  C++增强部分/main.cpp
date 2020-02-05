@@ -12,9 +12,9 @@ using namespace std;
 
 // C++语言对全局变量的检测增强了
 
-void test1(){           // 新增bool类型
+void test1(){               // 新增bool类型
     bool flag;
-    flag = true;        // true为1，false为0
+    flag = true;            // true为1，false为0
     if (flag){
         cout << "Yes!" << endl;
     }
@@ -57,7 +57,7 @@ enum season{
     winter
 };
 
-void test4(){               // 枚举的测试函数
+void test4(){                       // 枚举的测试函数
     enum season s = winter;
     cout << "s的索引为：" << s << endl;
 }

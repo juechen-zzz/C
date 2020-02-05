@@ -9,6 +9,7 @@
 #ifndef test_hpp
 #define test_hpp
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 void test5();
 #endif /* test_hpp */

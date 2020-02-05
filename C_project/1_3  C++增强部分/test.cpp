@@ -7,8 +7,6 @@
 //
 
 #include "test.hpp"
-#include <iostream>
-using namespace std;
 
 void test5(){
     int a = 10;

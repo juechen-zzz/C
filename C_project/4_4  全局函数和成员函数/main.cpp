@@ -47,6 +47,7 @@ A A_add(A &a1, A &a2){
     return tmp;
 }
 
+
 int main(int argc, const char * argv[]) {
     A a1(10, 20);
     A a2(100, 200);
