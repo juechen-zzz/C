@@ -23,6 +23,9 @@ public:
     int getData(int index);
     int getLength();
     
+    MyArray & operator=(const MyArray &another);
+    int & operator[](int index);
+    friend ostream & operator<<(ostream &os, MyArray &array);
 private:
     int len;
     int *space;     // 指向堆上的空间

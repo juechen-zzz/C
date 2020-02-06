@@ -13,27 +13,37 @@
 using namespace std;
 
 
-
 int main(int argc, const char * argv[]) {
     MyArray array1(10);
     
     for (int i = 0; i < 10; i++) {
-        array1.setData(i, i+10);
+        // array1.setData(i, i+10);
+        array1[i] = i + 1;
     }
     
-    cout << "--------------------------" << endl;
+    cout << "----------------------------------------------------" << endl;
     
-    for (int i = 0; i < 10; i++) {
-        cout << array1.getData(i) << " ";
-    }
-    cout << endl;
+//    for (int i = 0; i < 10; i++) {
+//        cout << array1.getData(i) << " ";
+//    }
+    cout << array1;
     
-    cout << "--------------------------" << endl;
+    cout << "----------------------------------------------------" << endl;
     
     MyArray array2 = array1;
     
     for (int i = 0; i < 10; i++) {
         cout << array2.getData(i) << " ";
+    }
+    cout << endl;
+    
+    cout << "----------------------------------------------------" << endl;
+    
+    MyArray array3;
+    array3 = array1;
+    
+    for (int i = 0; i < 10; i++) {
+        cout << array3.getData(i) << " ";
     }
     cout << endl;
     return 0;

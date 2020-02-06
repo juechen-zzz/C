@@ -18,7 +18,7 @@ public:
     Test(int a){
         this->m_a = a;
     }
-    void getA() const   // 成员函数尾部出现const修饰的不是函数，修饰的是this指针，这样就是只读的
+    void getA() const   // 成员函数尾部出现const修饰的不是函数，修饰的是this指针，这样就是只读的，内容不可修改
     {
         cout << "a = " << m_a << endl;
         cout << "a = " << this->m_a << endl;
