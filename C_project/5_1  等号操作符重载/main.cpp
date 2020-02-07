@@ -45,7 +45,7 @@ public:
         if (this == &another) {         // 1 防止自身赋值
             return *this;
         }
-        if (this->name != nullptr) {    // 2 删除之前的开辟空间
+        if (this->name != nullptr) {    // 2 先将自己额外开辟的空间回收掉
             delete[] this->name;
             this->name = nullptr;
             this->id = 0;

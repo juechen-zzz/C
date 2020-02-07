@@ -8,7 +8,7 @@
 
 
 /*
-    将一个对象当做是一个普通函数来调用，称这种对象是仿函数或伪函数
+    将一个对象当做是一个普通函数来调用，称这种对象是仿函数或伪函数（函数对象）
     若重载new和delete，用void * operator new(Size s)
  */
 
@@ -34,3 +34,4 @@ int main(int argc, const char * argv[]) {
     cout << value << endl;
     return 0;
 }
+
