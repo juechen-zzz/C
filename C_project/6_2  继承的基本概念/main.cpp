@@ -33,6 +33,8 @@ private:
 class Student2: public Student
 {
 public:
+    // 在调用子类构造函数的时候，会自动调用父类的构造函数，不声明则为无参构造，还有析构函数
+    // 重名的时候，加上作用域即可
     Student2(int id, string name, int score): Student(id, name)
     {
         this->score = score;
