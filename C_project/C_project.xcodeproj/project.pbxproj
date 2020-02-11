@@ -17,6 +17,9 @@
 		815F438E23F05459000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F438D23F05459000BA85A /* main.cpp */; };
 		815F439923F17E15000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F439823F17E15000BA85A /* main.cpp */; };
 		815F43A423F18B66000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F43A323F18B66000BA85A /* main.cpp */; };
+		815F43D023F2CF29000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F43CF23F2CF29000BA85A /* main.cpp */; };
+		815F43DB23F2D65B000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F43DA23F2D65B000BA85A /* main.cpp */; };
+		815F43E623F2FA10000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F43E523F2FA10000BA85A /* main.cpp */; };
 		818CCEF123D7ED7F003EBF6B /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 818CCEEF23D7ED7F003EBF6B /* test.cpp */; };
 		818CCEF923D9835F003EBF6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 818CCEF823D9835F003EBF6B /* main.cpp */; };
 		81AD34C323E599E300309B61 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81AD34C223E599E300309B61 /* main.cpp */; };
@@ -129,6 +132,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		815F439F23F18B66000BA85A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		815F43CB23F2CF29000BA85A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		815F43D623F2D65B000BA85A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		815F43E123F2FA10000BA85A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -457,6 +487,12 @@
 		815F439823F17E15000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		815F43A123F18B66000BA85A /* 6_4  类的兼容性赋值原则 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6_4  类的兼容性赋值原则"; sourceTree = BUILT_PRODUCTS_DIR; };
 		815F43A323F18B66000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		815F43CD23F2CF29000BA85A /* 6_5  多继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6_5  多继承"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F43CF23F2CF29000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		815F43D823F2D65B000BA85A /* 6_6  多态的定义及三个必要条件 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6_6  多态的定义及三个必要条件"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F43DA23F2D65B000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		815F43E323F2FA10000BA85A /* 6_7  虚析构函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6_7  虚析构函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F43E523F2FA10000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		818CCEEF23D7ED7F003EBF6B /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		818CCEF023D7ED7F003EBF6B /* test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
 		818CCEF623D9835F003EBF6B /* 指针引用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "指针引用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -591,6 +627,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		815F439E23F18B66000BA85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F43CA23F2CF29000BA85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F43D523F2D65B000BA85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F43E023F2FA10000BA85A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -905,6 +962,30 @@
 			path = "6_4  类的兼容性赋值原则";
 			sourceTree = "<group>";
 		};
+		815F43CE23F2CF29000BA85A /* 6_5  多继承 */ = {
+			isa = PBXGroup;
+			children = (
+				815F43CF23F2CF29000BA85A /* main.cpp */,
+			);
+			path = "6_5  多继承";
+			sourceTree = "<group>";
+		};
+		815F43D923F2D65B000BA85A /* 6_6  多态的定义及三个必要条件 */ = {
+			isa = PBXGroup;
+			children = (
+				815F43DA23F2D65B000BA85A /* main.cpp */,
+			);
+			path = "6_6  多态的定义及三个必要条件";
+			sourceTree = "<group>";
+		};
+		815F43E423F2FA10000BA85A /* 6_7  虚析构函数 */ = {
+			isa = PBXGroup;
+			children = (
+				815F43E523F2FA10000BA85A /* main.cpp */,
+			);
+			path = "6_7  虚析构函数";
+			sourceTree = "<group>";
+		};
 		818CCEF723D9835F003EBF6B /* 1_4  指针引用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1096,6 +1177,9 @@
 				815F438C23F05459000BA85A /* 6_2  继承的基本概念 */,
 				815F439723F17E15000BA85A /* 6_3  继承的方式 */,
 				815F43A223F18B66000BA85A /* 6_4  类的兼容性赋值原则 */,
+				815F43CE23F2CF29000BA85A /* 6_5  多继承 */,
+				815F43D923F2D65B000BA85A /* 6_6  多态的定义及三个必要条件 */,
+				815F43E423F2FA10000BA85A /* 6_7  虚析构函数 */,
 				81B11D7723D09ADE00B8B244 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1145,6 +1229,9 @@
 				815F438B23F05459000BA85A /* 6_2  继承的基本概念 */,
 				815F439623F17E15000BA85A /* 6_3  继承的方式 */,
 				815F43A123F18B66000BA85A /* 6_4  类的兼容性赋值原则 */,
+				815F43CD23F2CF29000BA85A /* 6_5  多继承 */,
+				815F43D823F2D65B000BA85A /* 6_6  多态的定义及三个必要条件 */,
+				815F43E323F2FA10000BA85A /* 6_7  虚析构函数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1413,6 +1500,57 @@
 			name = "6_4  类的兼容性赋值原则";
 			productName = "6_4  类的兼容性赋值原则";
 			productReference = 815F43A123F18B66000BA85A /* 6_4  类的兼容性赋值原则 */;
+			productType = "com.apple.product-type.tool";
+		};
+		815F43CC23F2CF29000BA85A /* 6_5  多继承 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F43D323F2CF29000BA85A /* Build configuration list for PBXNativeTarget "6_5  多继承" */;
+			buildPhases = (
+				815F43C923F2CF29000BA85A /* Sources */,
+				815F43CA23F2CF29000BA85A /* Frameworks */,
+				815F43CB23F2CF29000BA85A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6_5  多继承";
+			productName = "6_5  多继承";
+			productReference = 815F43CD23F2CF29000BA85A /* 6_5  多继承 */;
+			productType = "com.apple.product-type.tool";
+		};
+		815F43D723F2D65B000BA85A /* 6_6  多态的定义及三个必要条件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F43DC23F2D65B000BA85A /* Build configuration list for PBXNativeTarget "6_6  多态的定义及三个必要条件" */;
+			buildPhases = (
+				815F43D423F2D65B000BA85A /* Sources */,
+				815F43D523F2D65B000BA85A /* Frameworks */,
+				815F43D623F2D65B000BA85A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6_6  多态的定义及三个必要条件";
+			productName = "6_6  多态的定义及三个必要条件";
+			productReference = 815F43D823F2D65B000BA85A /* 6_6  多态的定义及三个必要条件 */;
+			productType = "com.apple.product-type.tool";
+		};
+		815F43E223F2FA10000BA85A /* 6_7  虚析构函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F43E723F2FA10000BA85A /* Build configuration list for PBXNativeTarget "6_7  虚析构函数" */;
+			buildPhases = (
+				815F43DF23F2FA10000BA85A /* Sources */,
+				815F43E023F2FA10000BA85A /* Frameworks */,
+				815F43E123F2FA10000BA85A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6_7  虚析构函数";
+			productName = "6_7  虚析构函数";
+			productReference = 815F43E323F2FA10000BA85A /* 6_7  虚析构函数 */;
 			productType = "com.apple.product-type.tool";
 		};
 		818CCEF523D9835F003EBF6B /* 指针引用 */ = {
@@ -2012,6 +2150,15 @@
 					815F43A023F18B66000BA85A = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					815F43CC23F2CF29000BA85A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					815F43D723F2D65B000BA85A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					815F43E223F2FA10000BA85A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					818CCEF523D9835F003EBF6B = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -2168,6 +2315,9 @@
 				815F438A23F05459000BA85A /* 6_2  继承的基本概念 */,
 				815F439523F17E15000BA85A /* 6_3  继承的方式 */,
 				815F43A023F18B66000BA85A /* 6_4  类的兼容性赋值原则 */,
+				815F43CC23F2CF29000BA85A /* 6_5  多继承 */,
+				815F43D723F2D65B000BA85A /* 6_6  多态的定义及三个必要条件 */,
+				815F43E223F2FA10000BA85A /* 6_7  虚析构函数 */,
 			);
 		};
 /* End PBXProject section */
@@ -2243,6 +2393,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				815F43A423F18B66000BA85A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F43C923F2CF29000BA85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F43D023F2CF29000BA85A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F43D423F2D65B000BA85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F43DB23F2D65B000BA85A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F43DF23F2FA10000BA85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F43E623F2FA10000BA85A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2653,6 +2827,54 @@
 			name = Debug;
 		};
 		815F43A723F18B66000BA85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815F43D123F2CF29000BA85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		815F43D223F2CF29000BA85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815F43DD23F2D65B000BA85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		815F43DE23F2D65B000BA85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815F43E823F2FA10000BA85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		815F43E923F2FA10000BA85A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3377,6 +3599,33 @@
 			buildConfigurations = (
 				815F43A623F18B66000BA85A /* Debug */,
 				815F43A723F18B66000BA85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F43D323F2CF29000BA85A /* Build configuration list for PBXNativeTarget "6_5  多继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F43D123F2CF29000BA85A /* Debug */,
+				815F43D223F2CF29000BA85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F43DC23F2D65B000BA85A /* Build configuration list for PBXNativeTarget "6_6  多态的定义及三个必要条件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F43DD23F2D65B000BA85A /* Debug */,
+				815F43DE23F2D65B000BA85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F43E723F2FA10000BA85A /* Build configuration list for PBXNativeTarget "6_7  虚析构函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F43E823F2FA10000BA85A /* Debug */,
+				815F43E923F2FA10000BA85A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
