@@ -23,6 +23,11 @@
 		815F43F123F425B2000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F43F023F425B2000BA85A /* main.cpp */; };
 		815F43FC23F4351B000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F43FB23F4351B000BA85A /* main.cpp */; };
 		815F440723F43BC2000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F440623F43BC2000BA85A /* main.cpp */; };
+		815F441223F59CA7000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F441123F59CA7000BA85A /* main.cpp */; };
+		815F441D23F59F5A000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F441C23F59F5A000BA85A /* main.cpp */; };
+		815F442823F5A242000BA85A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F442723F5A242000BA85A /* main.cpp */; };
+		815F443123F5A2C7000BA85A /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F442F23F5A2C7000BA85A /* Cat.cpp */; };
+		815F443423F5A651000BA85A /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815F443223F5A651000BA85A /* Animal.cpp */; };
 		818CCEF123D7ED7F003EBF6B /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 818CCEEF23D7ED7F003EBF6B /* test.cpp */; };
 		818CCEF923D9835F003EBF6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 818CCEF823D9835F003EBF6B /* main.cpp */; };
 		81AD34C323E599E300309B61 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81AD34C223E599E300309B61 /* main.cpp */; };
@@ -189,6 +194,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		815F440223F43BC2000BA85A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		815F440D23F59CA7000BA85A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		815F441823F59F5A000BA85A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		815F442323F5A242000BA85A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -529,6 +561,16 @@
 		815F43FB23F4351B000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		815F440423F43BC2000BA85A /* 7_3  纯虚函数和抽象类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7_3  纯虚函数和抽象类"; sourceTree = BUILT_PRODUCTS_DIR; };
 		815F440623F43BC2000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		815F440F23F59CA7000BA85A /* 7_4  强化练习：工厂问题（抽象类） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7_4  强化练习：工厂问题（抽象类）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F441123F59CA7000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		815F441A23F59F5A000BA85A /* 7_5  纯虚函数与多继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7_5  纯虚函数与多继承"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F441C23F59F5A000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		815F442523F5A242000BA85A /* 7_6  强化练习：动物园案例（多文件） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7_6  强化练习：动物园案例（多文件）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815F442723F5A242000BA85A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		815F442F23F5A2C7000BA85A /* Cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
+		815F443023F5A2C7000BA85A /* Cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
+		815F443223F5A651000BA85A /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		815F443323F5A651000BA85A /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
 		818CCEEF23D7ED7F003EBF6B /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		818CCEF023D7ED7F003EBF6B /* test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
 		818CCEF623D9835F003EBF6B /* 指针引用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "指针引用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -705,6 +747,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		815F440123F43BC2000BA85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F440C23F59CA7000BA85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F441723F59F5A000BA85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F442223F5A242000BA85A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1067,6 +1130,34 @@
 			path = "7_3  纯虚函数和抽象类";
 			sourceTree = "<group>";
 		};
+		815F441023F59CA7000BA85A /* 7_4  强化练习：工厂问题（抽象类） */ = {
+			isa = PBXGroup;
+			children = (
+				815F441123F59CA7000BA85A /* main.cpp */,
+			);
+			path = "7_4  强化练习：工厂问题（抽象类）";
+			sourceTree = "<group>";
+		};
+		815F441B23F59F5A000BA85A /* 7_5  纯虚函数与多继承 */ = {
+			isa = PBXGroup;
+			children = (
+				815F441C23F59F5A000BA85A /* main.cpp */,
+			);
+			path = "7_5  纯虚函数与多继承";
+			sourceTree = "<group>";
+		};
+		815F442623F5A242000BA85A /* 7_6  强化练习：动物园案例（多文件） */ = {
+			isa = PBXGroup;
+			children = (
+				815F442723F5A242000BA85A /* main.cpp */,
+				815F442F23F5A2C7000BA85A /* Cat.cpp */,
+				815F443023F5A2C7000BA85A /* Cat.hpp */,
+				815F443223F5A651000BA85A /* Animal.cpp */,
+				815F443323F5A651000BA85A /* Animal.hpp */,
+			);
+			path = "7_6  强化练习：动物园案例（多文件）";
+			sourceTree = "<group>";
+		};
 		818CCEF723D9835F003EBF6B /* 1_4  指针引用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1264,6 +1355,9 @@
 				815F43EF23F425B2000BA85A /* 7_1  多态的原理 */,
 				815F43FA23F4351B000BA85A /* 7_2  Vptr指针分布初始化 */,
 				815F440523F43BC2000BA85A /* 7_3  纯虚函数和抽象类 */,
+				815F441023F59CA7000BA85A /* 7_4  强化练习：工厂问题（抽象类） */,
+				815F441B23F59F5A000BA85A /* 7_5  纯虚函数与多继承 */,
+				815F442623F5A242000BA85A /* 7_6  强化练习：动物园案例（多文件） */,
 				81B11D7723D09ADE00B8B244 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1319,6 +1413,9 @@
 				815F43EE23F425B2000BA85A /* 7_1  多态的原理 */,
 				815F43F923F4351B000BA85A /* 7_2  Vptr指针分布初始化 */,
 				815F440423F43BC2000BA85A /* 7_3  纯虚函数和抽象类 */,
+				815F440F23F59CA7000BA85A /* 7_4  强化练习：工厂问题（抽象类） */,
+				815F441A23F59F5A000BA85A /* 7_5  纯虚函数与多继承 */,
+				815F442523F5A242000BA85A /* 7_6  强化练习：动物园案例（多文件） */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1689,6 +1786,57 @@
 			name = "7_3  纯虚函数和抽象类";
 			productName = "7_3  纯虚函数和抽象类";
 			productReference = 815F440423F43BC2000BA85A /* 7_3  纯虚函数和抽象类 */;
+			productType = "com.apple.product-type.tool";
+		};
+		815F440E23F59CA7000BA85A /* 7_4  强化练习：工厂问题（抽象类） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F441523F59CA7000BA85A /* Build configuration list for PBXNativeTarget "7_4  强化练习：工厂问题（抽象类）" */;
+			buildPhases = (
+				815F440B23F59CA7000BA85A /* Sources */,
+				815F440C23F59CA7000BA85A /* Frameworks */,
+				815F440D23F59CA7000BA85A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7_4  强化练习：工厂问题（抽象类）";
+			productName = "7_4  强化练习：工厂问题（抽象类）";
+			productReference = 815F440F23F59CA7000BA85A /* 7_4  强化练习：工厂问题（抽象类） */;
+			productType = "com.apple.product-type.tool";
+		};
+		815F441923F59F5A000BA85A /* 7_5  纯虚函数与多继承 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F441E23F59F5A000BA85A /* Build configuration list for PBXNativeTarget "7_5  纯虚函数与多继承" */;
+			buildPhases = (
+				815F441623F59F5A000BA85A /* Sources */,
+				815F441723F59F5A000BA85A /* Frameworks */,
+				815F441823F59F5A000BA85A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7_5  纯虚函数与多继承";
+			productName = "7_5  纯虚函数与多继承";
+			productReference = 815F441A23F59F5A000BA85A /* 7_5  纯虚函数与多继承 */;
+			productType = "com.apple.product-type.tool";
+		};
+		815F442423F5A242000BA85A /* 7_6  强化练习：动物园案例（多文件） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F442923F5A242000BA85A /* Build configuration list for PBXNativeTarget "7_6  强化练习：动物园案例（多文件）" */;
+			buildPhases = (
+				815F442123F5A242000BA85A /* Sources */,
+				815F442223F5A242000BA85A /* Frameworks */,
+				815F442323F5A242000BA85A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7_6  强化练习：动物园案例（多文件）";
+			productName = "7_6  强化练习：动物园案例（多文件）";
+			productReference = 815F442523F5A242000BA85A /* 7_6  强化练习：动物园案例（多文件） */;
 			productType = "com.apple.product-type.tool";
 		};
 		818CCEF523D9835F003EBF6B /* 指针引用 */ = {
@@ -2306,6 +2454,15 @@
 					815F440323F43BC2000BA85A = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					815F440E23F59CA7000BA85A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					815F441923F59F5A000BA85A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					815F442423F5A242000BA85A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					818CCEF523D9835F003EBF6B = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -2468,6 +2625,9 @@
 				815F43ED23F425B2000BA85A /* 7_1  多态的原理 */,
 				815F43F823F4351B000BA85A /* 7_2  Vptr指针分布初始化 */,
 				815F440323F43BC2000BA85A /* 7_3  纯虚函数和抽象类 */,
+				815F440E23F59CA7000BA85A /* 7_4  强化练习：工厂问题（抽象类） */,
+				815F441923F59F5A000BA85A /* 7_5  纯虚函数与多继承 */,
+				815F442423F5A242000BA85A /* 7_6  强化练习：动物园案例（多文件） */,
 			);
 		};
 /* End PBXProject section */
@@ -2591,6 +2751,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				815F440723F43BC2000BA85A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F440B23F59CA7000BA85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F441223F59CA7000BA85A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F441623F59F5A000BA85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F441D23F59F5A000BA85A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F442123F5A242000BA85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815F443123F5A2C7000BA85A /* Cat.cpp in Sources */,
+				815F442823F5A242000BA85A /* main.cpp in Sources */,
+				815F443423F5A651000BA85A /* Animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3097,6 +3283,54 @@
 			name = Debug;
 		};
 		815F440A23F43BC2000BA85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815F441323F59CA7000BA85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		815F441423F59CA7000BA85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815F441F23F59F5A000BA85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		815F442023F59F5A000BA85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815F442A23F5A242000BA85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		815F442B23F5A242000BA85A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3875,6 +4109,33 @@
 			buildConfigurations = (
 				815F440923F43BC2000BA85A /* Debug */,
 				815F440A23F43BC2000BA85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F441523F59CA7000BA85A /* Build configuration list for PBXNativeTarget "7_4  强化练习：工厂问题（抽象类）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F441323F59CA7000BA85A /* Debug */,
+				815F441423F59CA7000BA85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F441E23F59F5A000BA85A /* Build configuration list for PBXNativeTarget "7_5  纯虚函数与多继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F441F23F59F5A000BA85A /* Debug */,
+				815F442023F59F5A000BA85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F442923F5A242000BA85A /* Build configuration list for PBXNativeTarget "7_6  强化练习：动物园案例（多文件）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815F442A23F5A242000BA85A /* Debug */,
+				815F442B23F5A242000BA85A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
