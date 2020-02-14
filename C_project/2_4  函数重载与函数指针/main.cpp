@@ -20,8 +20,10 @@ void func1(int a, int b, int c){
 }
 
 // 方法1：定义一种函数类型
+// 作用：定义一个统一的接口，可以将相同参数列表的函数统一调用
 typedef void(MY_FUNC) (int, int);
 
+// void my_function(int(*fp)(int, int), int a, int b)   类似于架构函数
 // 方法2：定义一种指向这种函数类型的指针类型
 typedef void(*MY_FUNC_P) (int, int, int);
 
