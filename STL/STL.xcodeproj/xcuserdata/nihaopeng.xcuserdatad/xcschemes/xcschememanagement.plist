@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>1_6  类模板外部实现（多文件）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>STL.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
