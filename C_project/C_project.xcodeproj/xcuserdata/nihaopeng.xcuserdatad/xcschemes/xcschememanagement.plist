@@ -7,7 +7,7 @@
 		<key>0  测试区.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>26</integer>
 		</dict>
 		<key>1.xcscheme_^#shared#^_</key>
 		<dict>
@@ -92,12 +92,12 @@
 		<key>3_6  new和delete.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>21</integer>
 		</dict>
 		<key>3_7  静态成员变量和静态成员函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>15</integer>
 		</dict>
 		<key>3_8  静态成员变量练习.xcscheme_^#shared#^_</key>
 		<dict>
@@ -122,12 +122,12 @@
 		<key>4_3  this指针.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>28</integer>
 		</dict>
 		<key>4_4  全局函数和成员函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>27</integer>
 		</dict>
 		<key>4_5  强化练习：自定义的数组类.xcscheme_^#shared#^_</key>
 		<dict>
@@ -147,7 +147,7 @@
 		<key>4_8  左移右移操作符重载.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>32</integer>
 		</dict>
 		<key>5_1  等号操作符重载.xcscheme_^#shared#^_</key>
 		<dict>
@@ -177,27 +177,27 @@
 		<key>6_1  类和类之间的关系.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>39</integer>
 		</dict>
 		<key>6_2  继承的基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>33</integer>
 		</dict>
 		<key>6_3  继承的方式.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>40</integer>
 		</dict>
 		<key>6_4  类的兼容性赋值原则.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>41</integer>
 		</dict>
 		<key>6_5  多继承.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>42</integer>
 		</dict>
 		<key>6_6  多态的定义及三个必要条件.xcscheme_^#shared#^_</key>
 		<dict>

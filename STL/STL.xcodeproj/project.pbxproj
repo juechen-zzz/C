@@ -14,6 +14,7 @@
 		81720D7B23FD7AAE0026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D7A23FD7AAE0026D1EE /* main.cpp */; };
 		81720D8623FD856A0026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D8523FD856A0026D1EE /* main.cpp */; };
 		81720D9123FD96620026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D9023FD96620026D1EE /* main.cpp */; };
+		81720D9F23FEC93A0026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D9E23FEC93A0026D1EE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +81,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		81720D9A23FEC93A0026D1EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +108,8 @@
 		81720D8E23FD96620026D1EE /* 1_6  类模板外部实现（多文件） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1_6  类模板外部实现（多文件）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81720D9023FD96620026D1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81720D9623FD967E0026D1EE /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		81720D9C23FEC93A0026D1EE /* 2_1  MyArray框架实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_1  MyArray框架实现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81720D9E23FEC93A0026D1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81720D9923FEC93A0026D1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -163,6 +182,7 @@
 				81720D7923FD7AAE0026D1EE /* 1_4  类模板派生普通类 */,
 				81720D8423FD856A0026D1EE /* 1_5  类模板外部实现 */,
 				81720D8F23FD96620026D1EE /* 1_6  类模板外部实现（多文件） */,
+				81720D9D23FEC93A0026D1EE /* 2_1  MyArray框架实现 */,
 				81720D4A23FAC3CF0026D1EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -177,6 +197,7 @@
 				81720D7823FD7AAE0026D1EE /* 1_4  类模板派生普通类 */,
 				81720D8323FD856A0026D1EE /* 1_5  类模板外部实现 */,
 				81720D8E23FD96620026D1EE /* 1_6  类模板外部实现（多文件） */,
+				81720D9C23FEC93A0026D1EE /* 2_1  MyArray框架实现 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +257,14 @@
 				81720D9623FD967E0026D1EE /* Person.hpp */,
 			);
 			path = "1_6  类模板外部实现（多文件）";
+			sourceTree = "<group>";
+		};
+		81720D9D23FEC93A0026D1EE /* 2_1  MyArray框架实现 */ = {
+			isa = PBXGroup;
+			children = (
+				81720D9E23FEC93A0026D1EE /* main.cpp */,
+			);
+			path = "2_1  MyArray框架实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +389,23 @@
 			productReference = 81720D8E23FD96620026D1EE /* 1_6  类模板外部实现（多文件） */;
 			productType = "com.apple.product-type.tool";
 		};
+		81720D9B23FEC93A0026D1EE /* 2_1  MyArray框架实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81720DA223FEC93A0026D1EE /* Build configuration list for PBXNativeTarget "2_1  MyArray框架实现" */;
+			buildPhases = (
+				81720D9823FEC93A0026D1EE /* Sources */,
+				81720D9923FEC93A0026D1EE /* Frameworks */,
+				81720D9A23FEC93A0026D1EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_1  MyArray框架实现";
+			productName = "2_1  MyArray框架实现";
+			productReference = 81720D9C23FEC93A0026D1EE /* 2_1  MyArray框架实现 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -390,6 +436,9 @@
 					81720D8D23FD96620026D1EE = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					81720D9B23FEC93A0026D1EE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 81720D4423FAC3CF0026D1EE /* Build configuration list for PBXProject "STL" */;
@@ -412,6 +461,7 @@
 				81720D7723FD7AAE0026D1EE /* 1_4  类模板派生普通类 */,
 				81720D8223FD856A0026D1EE /* 1_5  类模板外部实现 */,
 				81720D8D23FD96620026D1EE /* 1_6  类模板外部实现（多文件） */,
+				81720D9B23FEC93A0026D1EE /* 2_1  MyArray框架实现 */,
 			);
 		};
 /* End PBXProject section */
@@ -470,6 +520,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				81720D9123FD96620026D1EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81720D9823FEC93A0026D1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81720D9F23FEC93A0026D1EE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +755,22 @@
 			};
 			name = Release;
 		};
+		81720DA023FEC93A0026D1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81720DA123FEC93A0026D1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -768,6 +842,15 @@
 			buildConfigurations = (
 				81720D9223FD96620026D1EE /* Debug */,
 				81720D9323FD96620026D1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81720DA223FEC93A0026D1EE /* Build configuration list for PBXNativeTarget "2_1  MyArray框架实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81720DA023FEC93A0026D1EE /* Debug */,
+				81720DA123FEC93A0026D1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
