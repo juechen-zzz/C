@@ -6,6 +6,12 @@
 //  Copyright © 2020 nihaopeng. All rights reserved.
 //
 
+/*
+    1 对象元素必须要能被拷贝
+    2 容器都是值寓意，而非引用寓意。向容器中放元素，都是放的元素的拷贝份
+    3 如果元素成员有指针，注意深拷贝和浅拷贝问题
+ */
+
 #include <iostream>
 using namespace std;
 
@@ -131,3 +137,4 @@ int main(int argc, const char * argv[]) {
     cout << array3;
     return 0;
 }
+
