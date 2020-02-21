@@ -63,11 +63,16 @@ void test3(){
 }
 
 // reinterpret_cast     强制类型转换
+typedef void(*FUN1)(int, int);
+typedef int(*FUN2)(int, char *);
 void test4(){
     // 无关的类型转换都行
     Building *bu1 = nullptr;
     Animal *an1 = reinterpret_cast<Animal *>(bu1);
     
+    // 函数指针
+    FUN1 func1;
+    FUN2 func2 = reinterpret_cast<FUN2>(func1);
 }
 
 int main(int argc, const char * argv[]) {
