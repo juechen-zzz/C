@@ -46,7 +46,7 @@ void test2(){
     
 }
 
-// const_cast   指针 引用 对象指针
+// const_cast   指针 引用 对象指针，用于增加或者去除const性质
 void test3(){
     int a = 10;
     const int &b = a;
@@ -54,11 +54,26 @@ void test3(){
     int &c = const_cast<int &>(b);
     c = 20;
     cout << "a = " << a << endl;
+    
+    // 指针类型
+    const int *p1 = nullptr;
+    int *p2 = const_cast<int *>(p1);
+    int *p3 = nullptr;
+    const int *p4 = const_cast<const int *>(p3);
+}
+
+// reinterpret_cast     强制类型转换
+void test4(){
+    // 无关的类型转换都行
+    Building *bu1 = nullptr;
+    Animal *an1 = reinterpret_cast<Animal *>(bu1);
+    
 }
 
 int main(int argc, const char * argv[]) {
     test1();
     test2();
     test3();
+    test4();
     return 0;
 }
