@@ -12,6 +12,8 @@
 		814BE9D624015EF60046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9D524015EF60046DB57 /* main.cpp */; };
 		814BE9E12401607E0046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9E02401607E0046DB57 /* main.cpp */; };
 		814BE9EC240179500046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9EB240179500046DB57 /* main.cpp */; };
+		814BE9F72401874D0046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9F62401874D0046DB57 /* main.cpp */; };
+		814BEA0224018FEF0046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BEA0124018FEF0046DB57 /* main.cpp */; };
 		81720D4D23FAC3CF0026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D4C23FAC3CF0026D1EE /* main.cpp */; };
 		81720D5A23FAC3F90026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D5923FAC3F90026D1EE /* main.cpp */; };
 		81720D6523FAEB340026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D6423FAEB340026D1EE /* main.cpp */; };
@@ -60,6 +62,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		814BE9E7240179500046DB57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		814BE9F22401874D0046DB57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		814BE9FD24018FEF0046DB57 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -153,6 +173,10 @@
 		814BE9E02401607E0046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		814BE9E9240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_6  异常类型和异常对象生命周期"; sourceTree = BUILT_PRODUCTS_DIR; };
 		814BE9EB240179500046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		814BE9F42401874D0046DB57 /* 2_7  继承标准库异常 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_7  继承标准库异常"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814BE9F62401874D0046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		814BE9FF24018FEF0046DB57 /* 2_8  继承在异常中的应用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_8  继承在异常中的应用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814BEA0124018FEF0046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81720D4923FAC3CF0026D1EE /* STL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = STL; sourceTree = BUILT_PRODUCTS_DIR; };
 		81720D4C23FAC3CF0026D1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81720D5723FAC3F90026D1EE /* 1_1  模板 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1_1  模板"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +226,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		814BE9E6240179500046DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9F12401874D0046DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9FC24018FEF0046DB57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,6 +345,22 @@
 			path = "2_6  异常类型和异常对象生命周期";
 			sourceTree = "<group>";
 		};
+		814BE9F52401874D0046DB57 /* 2_7  继承标准库异常 */ = {
+			isa = PBXGroup;
+			children = (
+				814BE9F62401874D0046DB57 /* main.cpp */,
+			);
+			path = "2_7  继承标准库异常";
+			sourceTree = "<group>";
+		};
+		814BEA0024018FEF0046DB57 /* 2_8  继承在异常中的应用 */ = {
+			isa = PBXGroup;
+			children = (
+				814BEA0124018FEF0046DB57 /* main.cpp */,
+			);
+			path = "2_8  继承在异常中的应用";
+			sourceTree = "<group>";
+		};
 		81720D4023FAC3CF0026D1EE = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +377,8 @@
 				814BE9D424015EF60046DB57 /* 2_4  栈解旋(unwinding) */,
 				814BE9DF2401607E0046DB57 /* 2_5  异常接口声明 */,
 				814BE9EA240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */,
+				814BE9F52401874D0046DB57 /* 2_7  继承标准库异常 */,
+				814BEA0024018FEF0046DB57 /* 2_8  继承在异常中的应用 */,
 				81720D4A23FAC3CF0026D1EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -343,6 +399,8 @@
 				814BE9D324015EF60046DB57 /* 2_4  栈解旋(unwinding) */,
 				814BE9DE2401607E0046DB57 /* 2_5  异常接口声明 */,
 				814BE9E9240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */,
+				814BE9F42401874D0046DB57 /* 2_7  继承标准库异常 */,
+				814BE9FF24018FEF0046DB57 /* 2_8  继承在异常中的应用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -498,6 +556,40 @@
 			name = "2_6  异常类型和异常对象生命周期";
 			productName = "2_6  异常类型和异常对象生命周期";
 			productReference = 814BE9E9240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */;
+			productType = "com.apple.product-type.tool";
+		};
+		814BE9F32401874D0046DB57 /* 2_7  继承标准库异常 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814BE9F82401874D0046DB57 /* Build configuration list for PBXNativeTarget "2_7  继承标准库异常" */;
+			buildPhases = (
+				814BE9F02401874D0046DB57 /* Sources */,
+				814BE9F12401874D0046DB57 /* Frameworks */,
+				814BE9F22401874D0046DB57 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_7  继承标准库异常";
+			productName = "2_7  继承标准库异常";
+			productReference = 814BE9F42401874D0046DB57 /* 2_7  继承标准库异常 */;
+			productType = "com.apple.product-type.tool";
+		};
+		814BE9FE24018FEF0046DB57 /* 2_8  继承在异常中的应用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814BEA0324018FEF0046DB57 /* Build configuration list for PBXNativeTarget "2_8  继承在异常中的应用" */;
+			buildPhases = (
+				814BE9FB24018FEF0046DB57 /* Sources */,
+				814BE9FC24018FEF0046DB57 /* Frameworks */,
+				814BE9FD24018FEF0046DB57 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_8  继承在异常中的应用";
+			productName = "2_8  继承在异常中的应用";
+			productReference = 814BE9FF24018FEF0046DB57 /* 2_8  继承在异常中的应用 */;
 			productType = "com.apple.product-type.tool";
 		};
 		81720D4823FAC3CF0026D1EE /* STL */ = {
@@ -660,6 +752,12 @@
 					814BE9E8240179500046DB57 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					814BE9F32401874D0046DB57 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					814BE9FE24018FEF0046DB57 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					81720D4823FAC3CF0026D1EE = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -712,6 +810,8 @@
 				814BE9D224015EF60046DB57 /* 2_4  栈解旋(unwinding) */,
 				814BE9DD2401607E0046DB57 /* 2_5  异常接口声明 */,
 				814BE9E8240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */,
+				814BE9F32401874D0046DB57 /* 2_7  继承标准库异常 */,
+				814BE9FE24018FEF0046DB57 /* 2_8  继承在异常中的应用 */,
 			);
 		};
 /* End PBXProject section */
@@ -754,6 +854,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				814BE9EC240179500046DB57 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9F02401874D0046DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BE9F72401874D0046DB57 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9FB24018FEF0046DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BEA0224018FEF0046DB57 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,6 +1013,38 @@
 			name = Debug;
 		};
 		814BE9EF240179500046DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		814BE9F92401874D0046DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		814BE9FA2401874D0046DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		814BEA0424018FEF0046DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		814BEA0524018FEF0046DB57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1185,6 +1333,24 @@
 			buildConfigurations = (
 				814BE9EE240179500046DB57 /* Debug */,
 				814BE9EF240179500046DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814BE9F82401874D0046DB57 /* Build configuration list for PBXNativeTarget "2_7  继承标准库异常" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814BE9F92401874D0046DB57 /* Debug */,
+				814BE9FA2401874D0046DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814BEA0324018FEF0046DB57 /* Build configuration list for PBXNativeTarget "2_8  继承在异常中的应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814BEA0424018FEF0046DB57 /* Debug */,
+				814BEA0524018FEF0046DB57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

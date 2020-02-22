@@ -64,6 +64,16 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>2_7  继承标准库异常.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>2_8  继承在异常中的应用.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>STL.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
