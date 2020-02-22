@@ -31,25 +31,25 @@ public:
     int age;
 };
 
-//class MyOutOfError: public exception{
-//public:
-//    MyOutOfError(const char *error){
-//        this->error = new char[strlen(error) + 1];
-//        strcpy(this->error, error);
-//    }
-//    virtual const char * what() const{
-//        return this->error;
-//    };
-//    ~MyOutOfError(){
-//        if (this->error != nullptr) {
-//            delete[] this->error;
-//            this->error = nullptr;
-//        }
-//    }
-//
-//private:
-//    char *error;
-//};
+class MyOutOfError: public exception{
+public:
+    MyOutOfError(const char *error){
+        this->error = new char[strlen(error) + 1];
+        strcpy(this->error, error);
+    }
+    virtual const char * what() const _NOEXCEPT{
+        return this->error;
+    };
+    ~MyOutOfError(){
+        if (this->error != nullptr) {
+            delete[] this->error;
+            this->error = nullptr;
+        }
+    }
+
+private:
+    char *error;
+};
 
 int main(int argc, const char * argv[]) {
     Person p;
@@ -58,11 +58,11 @@ int main(int argc, const char * argv[]) {
     } catch (exception &e) {
         cout << e.what() << endl;
     }
-//    cout << "--------------------------------------" << endl;
-//    try {
-//        MyOutOfError("my error func");
-//    } catch (exception e) {
-//        cout << e.what() << endl;
-//    }
+    cout << "--------------------------------------" << endl;
+    try {
+        throw MyOutOfError("my error func");
+    } catch (exception &ex) {
+        cout << ex.what() << endl;
+    }
     return 0;
 }
