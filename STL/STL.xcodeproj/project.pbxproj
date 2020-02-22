@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		814BE9C024000C610046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9BF24000C610046DB57 /* main.cpp */; };
 		814BE9CB24003D390046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9CA24003D390046DB57 /* main.cpp */; };
+		814BE9D624015EF60046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9D524015EF60046DB57 /* main.cpp */; };
+		814BE9E12401607E0046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9E02401607E0046DB57 /* main.cpp */; };
+		814BE9EC240179500046DB57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814BE9EB240179500046DB57 /* main.cpp */; };
 		81720D4D23FAC3CF0026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D4C23FAC3CF0026D1EE /* main.cpp */; };
 		81720D5A23FAC3F90026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D5923FAC3F90026D1EE /* main.cpp */; };
 		81720D6523FAEB340026D1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81720D6423FAEB340026D1EE /* main.cpp */; };
@@ -30,6 +33,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		814BE9C624003D390046DB57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		814BE9D124015EF60046DB57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		814BE9DC2401607E0046DB57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		814BE9E7240179500046DB57 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -117,6 +147,12 @@
 		814BE9BF24000C610046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		814BE9C824003D390046DB57 /* 2_3  异常机制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_3  异常机制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		814BE9CA24003D390046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		814BE9D324015EF60046DB57 /* 2_4  栈解旋(unwinding) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_4  栈解旋(unwinding)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814BE9D524015EF60046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		814BE9DE2401607E0046DB57 /* 2_5  异常接口声明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_5  异常接口声明"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814BE9E02401607E0046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		814BE9E9240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2_6  异常类型和异常对象生命周期"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814BE9EB240179500046DB57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81720D4923FAC3CF0026D1EE /* STL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = STL; sourceTree = BUILT_PRODUCTS_DIR; };
 		81720D4C23FAC3CF0026D1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81720D5723FAC3F90026D1EE /* 1_1  模板 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1_1  模板"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +181,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		814BE9C524003D390046DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9D024015EF60046DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9DB2401607E0046DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9E6240179500046DB57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,6 +283,30 @@
 			path = "2_3  异常机制";
 			sourceTree = "<group>";
 		};
+		814BE9D424015EF60046DB57 /* 2_4  栈解旋(unwinding) */ = {
+			isa = PBXGroup;
+			children = (
+				814BE9D524015EF60046DB57 /* main.cpp */,
+			);
+			path = "2_4  栈解旋(unwinding)";
+			sourceTree = "<group>";
+		};
+		814BE9DF2401607E0046DB57 /* 2_5  异常接口声明 */ = {
+			isa = PBXGroup;
+			children = (
+				814BE9E02401607E0046DB57 /* main.cpp */,
+			);
+			path = "2_5  异常接口声明";
+			sourceTree = "<group>";
+		};
+		814BE9EA240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */ = {
+			isa = PBXGroup;
+			children = (
+				814BE9EB240179500046DB57 /* main.cpp */,
+			);
+			path = "2_6  异常类型和异常对象生命周期";
+			sourceTree = "<group>";
+		};
 		81720D4023FAC3CF0026D1EE = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +320,9 @@
 				81720D9D23FEC93A0026D1EE /* 2_1  MyArray框架实现 */,
 				814BE9BE24000C610046DB57 /* 2_2  类型转换 */,
 				814BE9C924003D390046DB57 /* 2_3  异常机制 */,
+				814BE9D424015EF60046DB57 /* 2_4  栈解旋(unwinding) */,
+				814BE9DF2401607E0046DB57 /* 2_5  异常接口声明 */,
+				814BE9EA240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */,
 				81720D4A23FAC3CF0026D1EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -256,6 +340,9 @@
 				81720D9C23FEC93A0026D1EE /* 2_1  MyArray框架实现 */,
 				814BE9BD24000C610046DB57 /* 2_2  类型转换 */,
 				814BE9C824003D390046DB57 /* 2_3  异常机制 */,
+				814BE9D324015EF60046DB57 /* 2_4  栈解旋(unwinding) */,
+				814BE9DE2401607E0046DB57 /* 2_5  异常接口声明 */,
+				814BE9E9240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -360,6 +447,57 @@
 			name = "2_3  异常机制";
 			productName = "2_3  异常机制";
 			productReference = 814BE9C824003D390046DB57 /* 2_3  异常机制 */;
+			productType = "com.apple.product-type.tool";
+		};
+		814BE9D224015EF60046DB57 /* 2_4  栈解旋(unwinding) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814BE9D924015EF60046DB57 /* Build configuration list for PBXNativeTarget "2_4  栈解旋(unwinding)" */;
+			buildPhases = (
+				814BE9CF24015EF60046DB57 /* Sources */,
+				814BE9D024015EF60046DB57 /* Frameworks */,
+				814BE9D124015EF60046DB57 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_4  栈解旋(unwinding)";
+			productName = "2_4  栈解旋(unwinding)";
+			productReference = 814BE9D324015EF60046DB57 /* 2_4  栈解旋(unwinding) */;
+			productType = "com.apple.product-type.tool";
+		};
+		814BE9DD2401607E0046DB57 /* 2_5  异常接口声明 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814BE9E22401607E0046DB57 /* Build configuration list for PBXNativeTarget "2_5  异常接口声明" */;
+			buildPhases = (
+				814BE9DA2401607E0046DB57 /* Sources */,
+				814BE9DB2401607E0046DB57 /* Frameworks */,
+				814BE9DC2401607E0046DB57 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_5  异常接口声明";
+			productName = "2_5  异常接口声明";
+			productReference = 814BE9DE2401607E0046DB57 /* 2_5  异常接口声明 */;
+			productType = "com.apple.product-type.tool";
+		};
+		814BE9E8240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814BE9ED240179500046DB57 /* Build configuration list for PBXNativeTarget "2_6  异常类型和异常对象生命周期" */;
+			buildPhases = (
+				814BE9E5240179500046DB57 /* Sources */,
+				814BE9E6240179500046DB57 /* Frameworks */,
+				814BE9E7240179500046DB57 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2_6  异常类型和异常对象生命周期";
+			productName = "2_6  异常类型和异常对象生命周期";
+			productReference = 814BE9E9240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */;
 			productType = "com.apple.product-type.tool";
 		};
 		81720D4823FAC3CF0026D1EE /* STL */ = {
@@ -513,6 +651,15 @@
 					814BE9C724003D390046DB57 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					814BE9D224015EF60046DB57 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					814BE9DD2401607E0046DB57 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					814BE9E8240179500046DB57 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					81720D4823FAC3CF0026D1EE = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -562,6 +709,9 @@
 				81720D9B23FEC93A0026D1EE /* 2_1  MyArray框架实现 */,
 				814BE9BC24000C610046DB57 /* 2_2  类型转换 */,
 				814BE9C724003D390046DB57 /* 2_3  异常机制 */,
+				814BE9D224015EF60046DB57 /* 2_4  栈解旋(unwinding) */,
+				814BE9DD2401607E0046DB57 /* 2_5  异常接口声明 */,
+				814BE9E8240179500046DB57 /* 2_6  异常类型和异常对象生命周期 */,
 			);
 		};
 /* End PBXProject section */
@@ -580,6 +730,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				814BE9CB24003D390046DB57 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9CF24015EF60046DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BE9D624015EF60046DB57 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9DA2401607E0046DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BE9E12401607E0046DB57 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814BE9E5240179500046DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BE9EC240179500046DB57 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +849,54 @@
 			name = Debug;
 		};
 		814BE9CE24003D390046DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		814BE9D724015EF60046DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		814BE9D824015EF60046DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		814BE9E32401607E0046DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		814BE9E42401607E0046DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		814BE9EE240179500046DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		814BE9EF240179500046DB57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -936,6 +1158,33 @@
 			buildConfigurations = (
 				814BE9CD24003D390046DB57 /* Debug */,
 				814BE9CE24003D390046DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814BE9D924015EF60046DB57 /* Build configuration list for PBXNativeTarget "2_4  栈解旋(unwinding)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814BE9D724015EF60046DB57 /* Debug */,
+				814BE9D824015EF60046DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814BE9E22401607E0046DB57 /* Build configuration list for PBXNativeTarget "2_5  异常接口声明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814BE9E32401607E0046DB57 /* Debug */,
+				814BE9E42401607E0046DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814BE9ED240179500046DB57 /* Build configuration list for PBXNativeTarget "2_6  异常类型和异常对象生命周期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814BE9EE240179500046DB57 /* Debug */,
+				814BE9EF240179500046DB57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
