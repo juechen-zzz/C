@@ -25,6 +25,7 @@
 		81DBF1C424056EDA00F6344F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81DBF1C324056EDA00F6344F /* main.cpp */; };
 		81DBF1CF240573AD00F6344F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81DBF1CE240573AD00F6344F /* main.cpp */; };
 		81DBF1DA24057E6D00F6344F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81DBF1D924057E6D00F6344F /* main.cpp */; };
+		81DBF1E52406B5B600F6344F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81DBF1E42406B5B600F6344F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,6 +191,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		81DBF1E02406B5B600F6344F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -230,6 +240,8 @@
 		81DBF1CE240573AD00F6344F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81DBF1D724057E6D00F6344F /* 3_3  标准输出流 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3_3  标准输出流"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DBF1D924057E6D00F6344F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81DBF1E22406B5B600F6344F /* 3_4  文件的读写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3_4  文件的读写"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DBF1E42406B5B600F6344F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +371,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81DBF1DF2406B5B600F6344F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -439,6 +458,7 @@
 				81DBF1C224056EDA00F6344F /* 3_1  输入和输出流 */,
 				81DBF1CD240573AD00F6344F /* 3_2  标准输入流 */,
 				81DBF1D824057E6D00F6344F /* 3_3  标准输出流 */,
+				81DBF1E32406B5B600F6344F /* 3_4  文件的读写 */,
 				81720D4A23FAC3CF0026D1EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -464,6 +484,7 @@
 				81DBF1C124056EDA00F6344F /* 3_1  输入和输出流 */,
 				81DBF1CC240573AD00F6344F /* 3_2  标准输入流 */,
 				81DBF1D724057E6D00F6344F /* 3_3  标准输出流 */,
+				81DBF1E22406B5B600F6344F /* 3_4  文件的读写 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -555,6 +576,14 @@
 				81DBF1D924057E6D00F6344F /* main.cpp */,
 			);
 			path = "3_3  标准输出流";
+			sourceTree = "<group>";
+		};
+		81DBF1E32406B5B600F6344F /* 3_4  文件的读写 */ = {
+			isa = PBXGroup;
+			children = (
+				81DBF1E42406B5B600F6344F /* main.cpp */,
+			);
+			path = "3_4  文件的读写";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -866,6 +895,23 @@
 			productReference = 81DBF1D724057E6D00F6344F /* 3_3  标准输出流 */;
 			productType = "com.apple.product-type.tool";
 		};
+		81DBF1E12406B5B600F6344F /* 3_4  文件的读写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DBF1E82406B5B600F6344F /* Build configuration list for PBXNativeTarget "3_4  文件的读写" */;
+			buildPhases = (
+				81DBF1DE2406B5B600F6344F /* Sources */,
+				81DBF1DF2406B5B600F6344F /* Frameworks */,
+				81DBF1E02406B5B600F6344F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3_4  文件的读写";
+			productName = "3_4  文件的读写";
+			productReference = 81DBF1E22406B5B600F6344F /* 3_4  文件的读写 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -929,6 +975,9 @@
 					81DBF1D624057E6D00F6344F = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					81DBF1E12406B5B600F6344F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 81720D4423FAC3CF0026D1EE /* Build configuration list for PBXProject "STL" */;
@@ -962,6 +1011,7 @@
 				81DBF1C024056EDA00F6344F /* 3_1  输入和输出流 */,
 				81DBF1CB240573AD00F6344F /* 3_2  标准输入流 */,
 				81DBF1D624057E6D00F6344F /* 3_3  标准输出流 */,
+				81DBF1E12406B5B600F6344F /* 3_4  文件的读写 */,
 			);
 		};
 /* End PBXProject section */
@@ -1108,6 +1158,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				81DBF1DA24057E6D00F6344F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DBF1DE2406B5B600F6344F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DBF1E52406B5B600F6344F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1511,6 +1569,22 @@
 			};
 			name = Release;
 		};
+		81DBF1E62406B5B600F6344F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81DBF1E72406B5B600F6344F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1681,6 +1755,15 @@
 			buildConfigurations = (
 				81DBF1DC24057E6D00F6344F /* Debug */,
 				81DBF1DD24057E6D00F6344F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DBF1E82406B5B600F6344F /* Build configuration list for PBXNativeTarget "3_4  文件的读写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DBF1E62406B5B600F6344F /* Debug */,
+				81DBF1E72406B5B600F6344F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

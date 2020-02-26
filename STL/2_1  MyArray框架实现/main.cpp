@@ -105,7 +105,7 @@ private:
 };
 
 template<class U>
-ostream & operator<<(ostream &os, MyArray<U> &array){
+ostream &operator<<(ostream &os, MyArray<U> &array){
     for (int i = 0; i < array.getC(); i++) {
         os << array[i] << " ";
     }
