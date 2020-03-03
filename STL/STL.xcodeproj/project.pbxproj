@@ -30,6 +30,9 @@
 		81DBF1FB2408063B00F6344F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81DBF1FA2408063B00F6344F /* main.cpp */; };
 		81FEE252240A980C00DFAD0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81FEE251240A980C00DFAD0E /* main.cpp */; };
 		81FEE25D240AA83900DFAD0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81FEE25C240AA83900DFAD0E /* main.cpp */; };
+		81FEE268240E9C1100DFAD0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81FEE267240E9C1100DFAD0E /* main.cpp */; };
+		81FEE273240EB09D00DFAD0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81FEE272240EB09D00DFAD0E /* main.cpp */; };
+		81FEE279240EB19600DFAD0E /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81FEE277240EB19600DFAD0E /* Person.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -240,6 +243,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		81FEE263240E9C1100DFAD0E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		81FEE26E240EB09D00DFAD0E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -290,6 +311,12 @@
 		81FEE251240A980C00DFAD0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		81FEE25A240AA83900DFAD0E /* 3_8  vector动态数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3_8  vector动态数组"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FEE25C240AA83900DFAD0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81FEE265240E9C1100DFAD0E /* 4_1  deque容器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4_1  deque容器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FEE267240E9C1100DFAD0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81FEE270240EB09D00DFAD0E /* 4_2  强化练习：deque打分案例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4_2  强化练习：deque打分案例"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FEE272240EB09D00DFAD0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81FEE277240EB19600DFAD0E /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		81FEE278240EB19600DFAD0E /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,6 +481,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81FEE262240E9C1100DFAD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FEE26D240EB09D00DFAD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -539,6 +580,8 @@
 				81DBF1F92408063B00F6344F /* 3_6  STL HelloWorld */,
 				81FEE250240A980C00DFAD0E /* 3_7  String容器 */,
 				81FEE25B240AA83900DFAD0E /* 3_8  vector动态数组 */,
+				81FEE266240E9C1100DFAD0E /* 4_1  deque容器 */,
+				81FEE271240EB09D00DFAD0E /* 4_2  强化练习：deque打分案例 */,
 				81720D4A23FAC3CF0026D1EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -569,6 +612,8 @@
 				81DBF1F82408063B00F6344F /* 3_6  STL HelloWorld */,
 				81FEE24F240A980C00DFAD0E /* 3_7  String容器 */,
 				81FEE25A240AA83900DFAD0E /* 3_8  vector动态数组 */,
+				81FEE265240E9C1100DFAD0E /* 4_1  deque容器 */,
+				81FEE270240EB09D00DFAD0E /* 4_2  强化练习：deque打分案例 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -700,6 +745,24 @@
 				81FEE25C240AA83900DFAD0E /* main.cpp */,
 			);
 			path = "3_8  vector动态数组";
+			sourceTree = "<group>";
+		};
+		81FEE266240E9C1100DFAD0E /* 4_1  deque容器 */ = {
+			isa = PBXGroup;
+			children = (
+				81FEE267240E9C1100DFAD0E /* main.cpp */,
+			);
+			path = "4_1  deque容器";
+			sourceTree = "<group>";
+		};
+		81FEE271240EB09D00DFAD0E /* 4_2  强化练习：deque打分案例 */ = {
+			isa = PBXGroup;
+			children = (
+				81FEE272240EB09D00DFAD0E /* main.cpp */,
+				81FEE277240EB19600DFAD0E /* Person.cpp */,
+				81FEE278240EB19600DFAD0E /* Person.hpp */,
+			);
+			path = "4_2  强化练习：deque打分案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1096,6 +1159,40 @@
 			productReference = 81FEE25A240AA83900DFAD0E /* 3_8  vector动态数组 */;
 			productType = "com.apple.product-type.tool";
 		};
+		81FEE264240E9C1100DFAD0E /* 4_1  deque容器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FEE26B240E9C1100DFAD0E /* Build configuration list for PBXNativeTarget "4_1  deque容器" */;
+			buildPhases = (
+				81FEE261240E9C1100DFAD0E /* Sources */,
+				81FEE262240E9C1100DFAD0E /* Frameworks */,
+				81FEE263240E9C1100DFAD0E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4_1  deque容器";
+			productName = "4_1  deque容器";
+			productReference = 81FEE265240E9C1100DFAD0E /* 4_1  deque容器 */;
+			productType = "com.apple.product-type.tool";
+		};
+		81FEE26F240EB09D00DFAD0E /* 4_2  强化练习：deque打分案例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FEE274240EB09D00DFAD0E /* Build configuration list for PBXNativeTarget "4_2  强化练习：deque打分案例" */;
+			buildPhases = (
+				81FEE26C240EB09D00DFAD0E /* Sources */,
+				81FEE26D240EB09D00DFAD0E /* Frameworks */,
+				81FEE26E240EB09D00DFAD0E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4_2  强化练习：deque打分案例";
+			productName = "4_2  强化练习：deque打分案例";
+			productReference = 81FEE270240EB09D00DFAD0E /* 4_2  强化练习：deque打分案例 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1174,6 +1271,12 @@
 					81FEE259240AA83900DFAD0E = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					81FEE264240E9C1100DFAD0E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					81FEE26F240EB09D00DFAD0E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 81720D4423FAC3CF0026D1EE /* Build configuration list for PBXProject "STL" */;
@@ -1212,6 +1315,8 @@
 				81DBF1F72408063B00F6344F /* 3_6  STL HelloWorld */,
 				81FEE24E240A980C00DFAD0E /* 3_7  String容器 */,
 				81FEE259240AA83900DFAD0E /* 3_8  vector动态数组 */,
+				81FEE264240E9C1100DFAD0E /* 4_1  deque容器 */,
+				81FEE26F240EB09D00DFAD0E /* 4_2  强化练习：deque打分案例 */,
 			);
 		};
 /* End PBXProject section */
@@ -1398,6 +1503,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FEE25D240AA83900DFAD0E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FEE261240E9C1100DFAD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FEE268240E9C1100DFAD0E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FEE26C240EB09D00DFAD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FEE279240EB19600DFAD0E /* Person.cpp in Sources */,
+				81FEE273240EB09D00DFAD0E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1881,6 +2003,38 @@
 			};
 			name = Release;
 		};
+		81FEE269240E9C1100DFAD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81FEE26A240E9C1100DFAD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81FEE275240EB09D00DFAD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81FEE276240EB09D00DFAD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2096,6 +2250,24 @@
 			buildConfigurations = (
 				81FEE25F240AA83900DFAD0E /* Debug */,
 				81FEE260240AA83900DFAD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FEE26B240E9C1100DFAD0E /* Build configuration list for PBXNativeTarget "4_1  deque容器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FEE269240E9C1100DFAD0E /* Debug */,
+				81FEE26A240E9C1100DFAD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FEE274240EB09D00DFAD0E /* Build configuration list for PBXNativeTarget "4_2  强化练习：deque打分案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FEE275240EB09D00DFAD0E /* Debug */,
+				81FEE276240EB09D00DFAD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
