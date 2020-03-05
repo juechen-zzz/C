@@ -14,7 +14,6 @@
     v.front()/v.back()返回第一个/最后一个元素，并非迭代器
     v.resize()既修改capacity大小，也修改size大小
     v.reserve()只修改capacity大小，不修改size大小
-    v.front() v.back() 第一个和最后一个元素
  */
 
 #include <iostream>
