@@ -18,7 +18,7 @@
 using namespace std;
 
 void PrintStack(stack<int> &s){
-    while (!s.empty()) {
+    while (!s.empty()) {    // 判定是否为空，再取反
         cout << s.top() << " ";
         s.pop();
     }

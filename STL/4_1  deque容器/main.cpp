@@ -7,7 +7,7 @@
 //
 
 /*
-    vector是单口容器，deque是双口容器，分段连续，所以效率低
+    vector是单口容器，deque是双口容器，分段连续，所以效率低，支持随机访问
     push_back()/pop_back()      从尾部放入/删除
     push_front()/pop_front()    从头部放入/删除
     front()/back()              返回第一个/最后一个元素，并非迭代器

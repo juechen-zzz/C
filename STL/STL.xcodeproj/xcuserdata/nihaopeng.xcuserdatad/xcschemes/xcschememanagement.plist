@@ -62,12 +62,12 @@
 		<key>2_6  异常类型和异常对象生命周期.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>13</integer>
 		</dict>
 		<key>2_7  继承标准库异常.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>3</integer>
 		</dict>
 		<key>2_8  继承在异常中的应用.xcscheme_^#shared#^_</key>
 		<dict>
@@ -92,7 +92,7 @@
 		<key>3_4  文件的读写.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>18</integer>
 		</dict>
 		<key>3_5  迭代器案例.xcscheme_^#shared#^_</key>
 		<dict>
@@ -102,12 +102,12 @@
 		<key>3_6  STL HelloWorld.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>21</integer>
 		</dict>
 		<key>3_7  String容器.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>19</integer>
 		</dict>
 		<key>3_8  vector动态数组.xcscheme_^#shared#^_</key>
 		<dict>
@@ -122,12 +122,12 @@
 		<key>4_2  强化练习：deque打分案例.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>24</integer>
 		</dict>
 		<key>4_3  stack容器.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>25</integer>
 		</dict>
 		<key>4_4  queue容器.xcscheme_^#shared#^_</key>
 		<dict>
@@ -143,6 +143,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>28</integer>
+		</dict>
+		<key>5_1  map/multimap容器.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>5_2  强化练习：multimap案例.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
 		</dict>
 		<key>STL.xcscheme_^#shared#^_</key>
 		<dict>

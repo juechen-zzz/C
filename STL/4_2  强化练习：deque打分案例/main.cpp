@@ -61,7 +61,7 @@ bool MyCompare(Person &p1, Person &p2){
     return (p1.GetScore() > p2.GetScore());
 }
 void Print_Rank(vector<Person> &v){
-    // 排序
+    // 排序算法
     sort(v.begin(), v.end(), MyCompare);
     // 打印
     for (vector<Person>::iterator i = v.begin(); i != v.end(); i++) {
