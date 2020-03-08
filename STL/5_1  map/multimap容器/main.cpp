@@ -49,13 +49,14 @@ public:
     }
     int GetIndex(){return this->index;}
     int GetID(){return this->ID;}
+private:
     int index;
     int ID;
 };
 
 struct MyCompare123{
     bool operator()(Mykey k1, Mykey k2)const{
-        return (k1.index > k2.index);
+        return (k1.GetIndex() > k2.GetIndex());
     }
 };
 
