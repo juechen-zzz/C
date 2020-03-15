@@ -11,6 +11,9 @@
     2 成员方法：find copy delete replace insert/erase append assign compare substr
     3 string管理char*所分配的内存，每一次string的复制，取值都由string类负责维护，不用担心越界
     4 []如果访问越界，程序终止；at()如果访问越界，会抛出异常out_of_range
+ 
+    常用方法：
+    substr  insert  erase   append  replace
  */
 
 #include <iostream>
