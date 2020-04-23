@@ -49,6 +49,21 @@ void MyInsertionSort(vector<int> &nums){
     }
 }
 
+// 希尔排序(原始增量序列)
+void MyShellSort(vector<int> &nums){
+    int N = (int)nums.size();
+    for (int D = N/2; D > 0; D /= 2) {
+        for (int p = D; p < N; p++) {
+            int temp = nums[p];
+            int i;
+            for (i = p; i > 0 && nums[i-D] > temp; i -= D) {
+                nums[i] = nums[i-D];
+            }
+            nums[i] = temp;
+        }
+    }
+}
+
 int main(int argc, const char * argv[]) {
     int a[] = {34, 8, 64, 51, 32, 21};
     vector<int> nums(a, a+6);
@@ -59,8 +74,12 @@ int main(int argc, const char * argv[]) {
 //    MyBubbleSort(nums);
 //    PrintVector(nums);
     
-    cout << "插入排序：";
-    MyInsertionSort(nums);
+//    cout << "插入排序：";
+//    MyInsertionSort(nums);
+//    PrintVector(nums);
+    
+    cout << "希尔排序：";
+    MyShellSort(nums);
     PrintVector(nums);
     return 0;
 }
