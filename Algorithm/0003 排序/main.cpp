@@ -10,6 +10,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 void PrintVector(vector<int> &nums){
@@ -26,9 +27,7 @@ void MyBubbleSort(vector<int> &nums){
         bool flag = true;                           // 用来判断是否可以提前结束
         for (int i = 0; i < p; i++){
             if (nums[i] > nums[i+1]) {
-                int temp = nums[i];
-                nums[i] = nums[i+1];
-                nums[i+1] = temp;
+                swap(nums[i], nums[i+1]);
                 flag = false;
             }
         }
@@ -64,6 +63,44 @@ void MyShellSort(vector<int> &nums){
     }
 }
 
+// 选择排序
+void MySelectionSort(vector<int> &nums){
+    int N = (int)nums.size();
+    for (int i = 0; i < N; i++) {
+        int MinPosition = i;
+        for (int j = i; j < N; j++){
+            if (nums[j] < nums[MinPosition]) {
+                MinPosition = j;
+            }
+        }
+        swap(nums[i], nums[MinPosition]);
+    }
+}
+
+// 堆排序
+void HeapAdjust(vector<int> &nums, int s, int m)    //一次筛选的过程
+{
+    int temp = nums[s];
+    for(int j = 2*s+1; j <= m; j = j*2+1)           //通过循环沿较大的孩子结点向下筛选
+    {
+        if(j < m && nums[j] < nums[j+1]) j++;       //j为较大的记录的下标
+        if(temp > nums[j]) break;
+        nums[s] = nums[j];
+        s = j;
+    }
+    nums[s] = temp;                                 //插入
+}
+void MyHeapSort(vector<int> &nums){
+    int N = (int)nums.size();
+    for (int i = N / 2; i >= 0; i--) {
+        HeapAdjust(nums, i, N);                     // 通过循环初始化堆顶
+    }
+    for (int i = N - 1; i > 0; i--) {
+        swap(nums[0], nums[i]);
+        HeapAdjust(nums, 0, i-1);
+    }
+}
+
 int main(int argc, const char * argv[]) {
     int a[] = {34, 8, 64, 51, 32, 21};
     vector<int> nums(a, a+6);
@@ -78,8 +115,16 @@ int main(int argc, const char * argv[]) {
 //    MyInsertionSort(nums);
 //    PrintVector(nums);
     
-    cout << "希尔排序：";
-    MyShellSort(nums);
+//    cout << "希尔排序：";
+//    MyShellSort(nums);
+//    PrintVector(nums);
+    
+//    cout << "选择排序：";
+//    MySelectionSort(nums);
+//    PrintVector(nums);
+    
+    cout << "堆排序：";
+    MyHeapSort(nums);
     PrintVector(nums);
     return 0;
 }
