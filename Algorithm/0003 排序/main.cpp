@@ -101,6 +101,72 @@ void MyHeapSort(vector<int> &nums){
     }
 }
 
+// 归并排序（递归）
+void Merge(vector<int> &nums, vector<int> &tmpnums, int L, int R, int RightEnd){        // 归并函数
+    int LeftEnd = R - 1;
+    int temp = L;
+    int NumElements = RightEnd - L + 1;
+    while (L <= LeftEnd && R <= RightEnd) {
+        if (nums[L] <= nums[R]) tmpnums[temp++] = nums[L++];
+        else tmpnums[temp++] = nums[R++];
+    }
+    while (L <= LeftEnd) tmpnums[temp++] = nums[L++];
+    while (R <= RightEnd) tmpnums[temp++] = nums[R++];
+    for (int i = 0; i < NumElements; i++, RightEnd--) {
+        nums[RightEnd] = tmpnums[RightEnd];
+    }
+}
+void MSort(vector<int> &nums, vector<int> &tmpnums, int L, int RightEnd){               // 排序算法
+    int Center;
+    if (L < RightEnd) {
+        Center = (L + RightEnd) / 2;
+        MSort(nums, tmpnums, L, Center);
+        MSort(nums, tmpnums, Center+1, RightEnd);
+        Merge(nums, tmpnums, L, Center+1, RightEnd);
+    }
+}
+void MyMergeSort(vector<int> &nums){                                                    // 统一接口
+    int N = (int)nums.size();
+    vector<int> tmpnums;
+    tmpnums.reserve(N);         // 容器需要预留空间
+    MSort(nums, tmpnums, 0, N-1);
+}
+
+// 归并排序（非递归）
+void Merge1(vector<int> &nums, vector<int> &tmpnums, int L, int R, int RightEnd){        // 归并函数
+    int LeftEnd = R - 1;
+    int temp = L;
+    while (L <= LeftEnd && R <= RightEnd) {
+        if (nums[L] <= nums[R]) tmpnums[temp++] = nums[L++];
+        else tmpnums[temp++] = nums[R++];
+    }
+    while (L <= LeftEnd) tmpnums[temp++] = nums[L++];
+    while (R <= RightEnd) tmpnums[temp++] = nums[R++];
+}
+void MergePass(vector<int> &nums, vector<int> &tmpnums, int N, int length){
+    int i;
+    for (i = 0; i <= N - 2 * length; i += 2 * length) {         // 仅处理到倒数第二对
+        Merge1(nums, tmpnums, i, i+length, i+2*length-1);
+    }
+    if (i + length < N) {                                       // 最后依旧是一对子序列
+        Merge1(nums, tmpnums, i, i+length, N-1);
+    } else {                                                    // 说明最后只有一个子序列，直接赋值
+        for (int j = i; j < N; j++) tmpnums[j] = nums[j];
+    }
+}
+void MyMergeSort1(vector<int> &nums){
+    int N = (int)nums.size();
+    int length = 1;
+    vector<int> tmpnums;
+    tmpnums.reserve(N);         // 容器需要预留空间
+    while (length < N) {
+        MergePass(nums, tmpnums, N, length);
+        length *= 2;
+        MergePass(tmpnums, nums, N, length);
+        length *= 2;
+    }
+}
+
 int main(int argc, const char * argv[]) {
     int a[] = {34, 8, 64, 51, 32, 21};
     vector<int> nums(a, a+6);
@@ -123,8 +189,16 @@ int main(int argc, const char * argv[]) {
 //    MySelectionSort(nums);
 //    PrintVector(nums);
     
-    cout << "堆排序：";
-    MyHeapSort(nums);
+//    cout << "堆排序：";
+//    MyHeapSort(nums);
+//    PrintVector(nums);
+    
+//    cout << "归并排序（递归）:";
+//    MyMergeSort(nums);
+//    PrintVector(nums);
+    
+    cout << "归并排序（非递归）:";
+    MyMergeSort1(nums);
     PrintVector(nums);
     return 0;
 }
