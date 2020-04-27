@@ -128,7 +128,7 @@ void MSort(vector<int> &nums, vector<int> &tmpnums, int L, int RightEnd){       
 void MyMergeSort(vector<int> &nums){                                                    // 统一接口
     int N = (int)nums.size();
     vector<int> tmpnums;
-    tmpnums.reserve(N);         // 容器需要预留空间
+    tmpnums.reserve(N);                 // 容器需要预留空间
     MSort(nums, tmpnums, 0, N-1);
 }
 
@@ -158,8 +158,8 @@ void MyMergeSort1(vector<int> &nums){
     int N = (int)nums.size();
     int length = 1;
     vector<int> tmpnums;
-    tmpnums.reserve(N);         // 容器需要预留空间
-    while (length < N) {
+    tmpnums.reserve(N);                                         // 容器需要预留空间
+    while (length < N) {                                        // 此处不能有等号情况
         MergePass(nums, tmpnums, N, length);
         length *= 2;
         MergePass(tmpnums, nums, N, length);
@@ -167,8 +167,50 @@ void MyMergeSort1(vector<int> &nums){
     }
 }
 
+// 快速排序
+int Median3(vector<int> &nums, int Left, int Right){
+    int Center = (Left + Right) / 2;
+    if (nums[Left] > nums[Center]) {
+        swap(nums[Left], nums[Center]);
+    }
+    if (nums[Left] > nums[Right]) {
+        swap(nums[Left], nums[Right]);
+    }
+    if (nums[Center] > nums[Right]) {
+        swap(nums[Center], nums[Right]);
+    }
+    swap(nums[Center], nums[Right-1]);
+    return nums[Right-1];
+}
+void Quicksort(vector<int> &nums, int Left, int Right){
+    if (Right - Left >= 2){                         // 小规模数据用快排效率低，小于一个阈值时可以用插入排序，一般阈值为100左右
+        int Pivot = Median3(nums, Left, Right);
+        int i = Left;
+        int j = Right - 1;
+        for (; ; ) {
+            while (nums[++i] < Pivot) {}
+            while (nums[--j] > Pivot) {}
+            if (i < j) {
+                swap(nums[i], nums[j]);
+            } else {break;}
+        }
+        swap(nums[i], nums[Right-1]);
+        Quicksort(nums, Left, i-1);
+        Quicksort(nums, i+1, Right);
+    }
+    else if (Right - Left == 1 && nums[Left] > nums[Right]){
+            swap(nums[Left], nums[Right]);
+    }
+    else {return;}
+}
+void MyQuickSort(vector<int> &nums){
+    int N = (int)nums.size();
+    Quicksort(nums, 0, N-1);
+}
+
+
 int main(int argc, const char * argv[]) {
-    int a[] = {34, 8, 64, 51, 32, 21};
+    int a[] = {34, 8, 49, 51, 32, 21};
     vector<int> nums(a, a+6);
     cout << "初始数组：";
     PrintVector(nums);
@@ -197,8 +239,12 @@ int main(int argc, const char * argv[]) {
 //    MyMergeSort(nums);
 //    PrintVector(nums);
     
-    cout << "归并排序（非递归）:";
-    MyMergeSort1(nums);
+//    cout << "归并排序（非递归）:";
+//    MyMergeSort1(nums);
+//    PrintVector(nums);
+    
+    cout << "快速排序：";
+    MyQuickSort(nums);
     PrintVector(nums);
     return 0;
 }
